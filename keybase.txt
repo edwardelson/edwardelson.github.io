@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/eekosasih
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://eekosasih.com
+  * I am eekosasih (https://keybase.io/eekosasih) on keybase.
+  * I have a public key with fingerprint BB3D 2F7D D024 782E 0489  5293 838B 5A9E 79A8 1DE1
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01018d1f41a07dde2ecec3ebb729e579609c64f519e481bde877eb76a7b91623fccf0a",
+      "fingerprint": "bb3d2f7dd024782e04895293838b5a9e79a81de1",
+      "host": "keybase.io",
+      "key_id": "838b5a9e79a81de1",
+      "kid": "01018d1f41a07dde2ecec3ebb729e579609c64f519e481bde877eb76a7b91623fccf0a",
+      "uid": "e3912f609987e76b8a7549194b827019",
+      "username": "eekosasih"
+    },
+    "service": {
+      "hostname": "eekosasih.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1590508882,
+  "expire_in": 157680000,
+  "prev": "facfb1ece5cd31cd6ad9fe571b3f2cbfbaab1d9d529516e4428915db4bad3ee8",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMIfAnicrVJLbE1BGL71Vo9YiIi0yqGL0tSZ85y5WEo8wqL1atK6Zs78pz2q9xzn
+nHupG89gIZFe70dUirRKIh7pBqlnEWmKpA2RLiohFkqFRUXugjkNG7E0m8n8833f
+fP83f+ekkbH8vInNizO5lcd+5HU9OJ2KbeheXJ6RmMsbpHhGqoPhDTZzCMJEncOl
+uCQjGWGObA1R2eQcFLDAUoExUyGgm8SQiWVoto4IaBgxDtg0gZkGNRlBhqLalmXL
+VCqVbCdZA77nO8lQyDKmcsUWgrKimVgBWcNEV4iKVcx0SsAkFCMOSBBr3SBiCHOM
+BlDmuKImDolhe//A/2ffqWE5UAlSbEEi2ATTYJiaukYQ0RhWTBmRCBiAn6T1EKGh
+zg1o4NRKO0olUU47FkTJRq38DSmz3HrB9nw3dC13s7iqDUMviEfUsMGLsFuBJX6r
+JJiT5CJJwUiDHzhuUoojgbRCJ5JFOpF1GWOslEqwzXN8SDgRQjcNLIsVvQNpIWlT
+y2ZIZKJbXEUWNygntsgFMdVWLGYzShnihIs/0ZEBmqZggnTONEa5CoClqK8tSVeK
+G8ImrRGSgVOTpGHKB2nHw/tVo2J5+bExo0dEExbLHz/lz9zNujAudq6ny7vxErLr
+Pu9vLy7uPF9iPFjrfBwz214XQsebAmXmglYcZLvZ6+zV9ME9jQ01vfteA/o+b1M/
+f3Kt78ZBur1qznr3XmFJV/WMXM/lAxVnKoZ63+z61pAryRTet/cOFmT9kvk7/eal
+lQuPXXp/euS9aRs/HP3YdvLdqd0VzfKiVVZm/9nucMTxzpZpRWcbl0wpfPTqU/nV
+ZV97J8GWqgEvO72y6O3SzJyNR9tbH7ctv1P5vH3JzEtz/b4XT39W21uLZl/c8658
+4NnEjsHq7MmqnNZilU+9faWpacLdI9dvtvWkv65J9acOjfVWXf4y+cDh0tXptY1y
+a8eQN2r049yKE6du/QLfMkgF
+=Cf0G
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/eekosasih
+
+==================================================================
