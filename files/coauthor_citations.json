@@ -65,6 +65,14 @@
             "group": 1
         },
         {
+            "id": "Fabrizio Margaroli",
+            "group": 1
+        },
+        {
+            "id": "Simon Baker",
+            "group": 1
+        },
+        {
             "id": "Philip Torr",
             "group": 2
         },
@@ -301,10 +309,6 @@
             "group": 2
         },
         {
-            "id": "Simon Baker",
-            "group": 2
-        },
-        {
             "id": "Aniruddh Herle",
             "group": 2
         },
@@ -330,6 +334,70 @@
         },
         {
             "id": "Subhankar Mishra",
+            "group": 2
+        },
+        {
+            "id": "daniela bortoletto",
+            "group": 2
+        },
+        {
+            "id": "Barbara Mele",
+            "group": 2
+        },
+        {
+            "id": "Prof. Emidio Gabrielli",
+            "group": 2
+        },
+        {
+            "id": "Anna Korhonen",
+            "group": 2
+        },
+        {
+            "id": "Ulla Stenius",
+            "group": 2
+        },
+        {
+            "id": "Nigel Collier",
+            "group": 2
+        },
+        {
+            "id": "Emilia Mendes",
+            "group": 2
+        },
+        {
+            "id": "Sampo Pyysalo",
+            "group": 2
+        },
+        {
+            "id": "Roi Reichart",
+            "group": 2
+        },
+        {
+            "id": "Duncan McFarlane",
+            "group": 2
+        },
+        {
+            "id": "Billy Chiu",
+            "group": 2
+        },
+        {
+            "id": "Martha Stone Palmer",
+            "group": 2
+        },
+        {
+            "id": "Marek Rei",
+            "group": 2
+        },
+        {
+            "id": "Simone Teufel",
+            "group": 2
+        },
+        {
+            "id": "Meliha Yetisgen",
+            "group": 2
+        },
+        {
+            "id": "Ali Imran, PhD",
             "group": 2
         }
     ],
@@ -407,6 +475,16 @@
         {
             "source": "Edward Elson Kosasih",
             "target": "Rucha Bhalchandra Joshi",
+            "value": 0
+        },
+        {
+            "source": "Edward Elson Kosasih",
+            "target": "Fabrizio Margaroli",
+            "value": 0
+        },
+        {
+            "source": "Edward Elson Kosasih",
+            "target": "Simon Baker",
             "value": 0
         },
         {
@@ -777,6 +855,91 @@
         {
             "source": "Rucha Bhalchandra Joshi",
             "target": "Janamejaya Channegowda",
+            "value": 1
+        },
+        {
+            "source": "Fabrizio Margaroli",
+            "target": "daniela bortoletto",
+            "value": 1
+        },
+        {
+            "source": "Fabrizio Margaroli",
+            "target": "Barbara Mele",
+            "value": 1
+        },
+        {
+            "source": "Fabrizio Margaroli",
+            "target": "Prof. Emidio Gabrielli",
+            "value": 1
+        },
+        {
+            "source": "Simon Baker",
+            "target": "Anna Korhonen",
+            "value": 1
+        },
+        {
+            "source": "Simon Baker",
+            "target": "Ulla Stenius",
+            "value": 1
+        },
+        {
+            "source": "Simon Baker",
+            "target": "Nigel Collier",
+            "value": 1
+        },
+        {
+            "source": "Simon Baker",
+            "target": "Emilia Mendes",
+            "value": 1
+        },
+        {
+            "source": "Simon Baker",
+            "target": "Sampo Pyysalo",
+            "value": 1
+        },
+        {
+            "source": "Simon Baker",
+            "target": "Roi Reichart",
+            "value": 1
+        },
+        {
+            "source": "Simon Baker",
+            "target": "Duncan McFarlane",
+            "value": 1
+        },
+        {
+            "source": "Simon Baker",
+            "target": "Billy Chiu",
+            "value": 1
+        },
+        {
+            "source": "Simon Baker",
+            "target": "Martha Stone Palmer",
+            "value": 1
+        },
+        {
+            "source": "Simon Baker",
+            "target": "Marek Rei",
+            "value": 1
+        },
+        {
+            "source": "Simon Baker",
+            "target": "Simone Teufel",
+            "value": 1
+        },
+        {
+            "source": "Simon Baker",
+            "target": "Meliha Yetisgen",
+            "value": 1
+        },
+        {
+            "source": "Simon Baker",
+            "target": "P. Li\u00f3, Pietro Lio, P. Lio, Pietro Li\u00f2, Pie...",
+            "value": 1
+        },
+        {
+            "source": "Simon Baker",
+            "target": "Ali Imran, PhD",
             "value": 1
         }
     ]
