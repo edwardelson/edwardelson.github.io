@@ -20,7 +20,15 @@
 
 	</head>
 	<body>
-
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+			<script src="https://unpkg.com/3d-force-graph"></script>
 		<!-- Wrapper -->
 			<div id="wrapper">
 
@@ -59,27 +67,99 @@
 										<header class="major">
 											<h2>About Me</h2>
 										</header>
-										<p>
-											Hello! I'm a researcher who's passionate in studying the emergence of patterns in data using mathematics and computer science. 
-											This includes a diverge range of systems, from links in supply chain, homo-lumo gap in molecules, defects in electronics solder ball, tones in under-resourced languages, contingent business interruption risk in insurance, to arbitrage in securities trading.
-											I'm currently finishing my PhD at the University of Cambridge. <!-- <a href="https://www.c2d3.cam.ac.uk/news/aviva-cambridge-partnership-new-phd-students-202021-academic-year">Cambridge Centre for Data-Driven Discovery</a> and <a href="https://www.ifm.eng.cam.ac.uk">Department of Engineering</a>, University of Cambridge. -->
+										<p>Hello! I'm a quantitative researcher with background in network science, machine learning and electrical engineering. I'm currently pursuing a PhD at the <a href="https://www.c2d3.cam.ac.uk/news/aviva-cambridge-partnership-new-phd-students-202021-academic-year">Cambridge Centre for Data-Driven Discovery</a> and <a href="https://www.ifm.eng.cam.ac.uk">Department of Engineering</a>, University of Cambridge. My life philosophy is to explore, experience and build knowledge across different fields and expertises. This is reflected both in my general interest (intersection of research, education, finance and engineering), as well as my research works.
 										</p>
 									</div>
 									<span class="image"><img src="images/edward.jpg" alt="" /></span>
 								</div>
 								
-							</section>
-
-
-
-
+							</section>						
 
 							<section id="research" class="main special">
 								<header class="major">
 									<h2>Research</h2>
-									<h4>I am currently interested in studying neurosymbolic reasoning and supply chain risk management. </h4>
+									<h4>My research philosophy is to connect the dots (literally) between different field of science. </h4>
 								</header>
-							
+								<header class="minor">
+									<h2>My Co-authors Network</h2>
+									<h5>Click on the nodes to see more details on whom have I been working with! </h5>
+									<h5>My approach is to collaborate with researchers from diverse backgrounds, from first-time authors to seasoned academics.</h5>
+									<div id="coauthor-graph"></div>
+									  <script>
+										const coauthorelem = document.getElementById('coauthor-graph');
+
+										const CoauthorGraph = ForceGraph3D()(coauthorelem)
+											.width(0.7*window.innerWidth)
+											.height(0.7*window.innerHeight)
+											.backgroundColor("#FFFFFF")
+											.nodeRelSize(6)
+											.linkColor("#000000")
+											.linkWidth(2)
+											.linkOpacity(0.4)
+											.jsonUrl('https://raw.githubusercontent.com/edwardelson/edwardelson.github.io/master/files/coauthor_citations.json')
+											.nodeLabel('id')
+											.nodeAutoColorBy('group')
+											.onNodeClick(node => {
+											  // Aim at node from outside it
+											  const distance = 40;
+											  const distRatio = 1 + distance/Math.hypot(node.x, node.y, node.z);
+
+											  const newPos = node.x || node.y || node.z
+												? { x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio }
+												: { x: 0, y: 0, z: distance }; // special case if node is in (0,0,0)
+
+											  CoauthorGraph.cameraPosition(
+												newPos, // new position
+												node, // lookAt ({ x, y, z })
+												3000  // ms transition duration
+											  );
+											});
+
+										// Spread nodes a little wider
+										CoauthorGraph.d3Force('charge').strength(-120);
+									  </script>
+								</header>
+								<br>
+								<header class="minor">
+									<h2>My Citation Network</h2>
+									<h5>Click on the nodes to see more details on how my publications have been further developed!</h5>
+									<h5>My methodology is to develop and combine ideas from different domain, including graph neural networks, explainable AI, reinforcement learning, supply chain, digital twin to risk management. </h5>
+									<div id="pub-graph"></div>
+									  <script>
+										const pubelem = document.getElementById('pub-graph');
+
+										const PubGraph = ForceGraph3D()(pubelem)
+											.width(0.7*window.innerWidth)
+											.height(0.7*window.innerHeight)
+											.backgroundColor("#FFFFFF")
+											.nodeRelSize(6)
+											.linkColor("#000000")
+											.linkWidth(2)
+											.linkOpacity(0.4)
+											.jsonUrl('https://raw.githubusercontent.com/edwardelson/edwardelson.github.io/master/files/publication_citations.json')
+											.nodeLabel('id')
+											.nodeAutoColorBy('group')
+											.onNodeClick(node => {
+											  // Aim at node from outside it
+											  const distance = 40;
+											  const distRatio = 1 + distance/Math.hypot(node.x, node.y, node.z);
+
+											  const newPos = node.x || node.y || node.z
+												? { x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio }
+												: { x: 0, y: 0, z: distance }; // special case if node is in (0,0,0)
+
+											  PubGraph.cameraPosition(
+												newPos, // new position
+												node, // lookAt ({ x, y, z })
+												3000  // ms transition duration
+											  );
+											});
+
+										// Spread nodes a little wider
+										PubGraph.d3Force('charge').strength(-120);
+									  </script>
+								</header>
+								<br>								
 								<header class="minor">
 									<h2>Journal Publications</h2>
 									<h5><a href="https://www.tandfonline.com/doi/full/10.1080/00207543.2021.1956697"><b>Kosasih, E.E.</b> and Brintrup, A., 2021. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production Research, 60(17), pp.5380-5393.</a></h5>
@@ -378,15 +458,6 @@
 					</footer>
 
 			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
 
 	</body>
 </html>
