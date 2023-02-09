@@ -2,810 +2,782 @@
     "nodes": [
         {
             "id": "Edward Elson Kosasih",
-            "group": 1
+            "group": 0
         },
         {
             "id": "Angira Sharma",
-            "group": 2
+            "group": 1
         },
         {
             "id": "Zhang Jie",
-            "group": 2
+            "group": 1
         },
         {
             "id": "A. Calinescu",
-            "group": 2
+            "group": 1
         },
         {
             "id": "Ajmal Aziz",
-            "group": 2
+            "group": 1
         },
         {
             "id": "G\u00fcven Demirel",
-            "group": 2
+            "group": 1
         },
         {
             "id": "Piotr Bielak",
-            "group": 2
+            "group": 1
         },
         {
             "id": "Arian Jamasb",
-            "group": 2
+            "group": 1
         },
         {
             "id": "Ryan-Rhys Griffiths",
-            "group": 2
+            "group": 1
         },
         {
             "id": "Kamil Tagowski",
-            "group": 2
+            "group": 1
         },
         {
             "id": "Benedict Aaron Tjandra",
-            "group": 2
+            "group": 1
         },
         {
             "id": "Kelvin Idanwekhai",
-            "group": 2
+            "group": 1
         },
         {
             "id": "Yuqian Lu (\u9646\u7389\u524d\uff09",
-            "group": 2
+            "group": 1
         },
         {
             "id": "Nils Brockmann",
-            "group": 2
+            "group": 1
         },
         {
             "id": "Janamejaya Channegowda",
-            "group": 2
+            "group": 1
         },
         {
             "id": "Rucha Bhalchandra Joshi",
-            "group": 2
-        },
-        {
-            "id": "Zhang Jie",
-            "group": 3
+            "group": 1
         },
         {
             "id": "Philip Torr",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Naeemullah Khan",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Ganesh Sundaramoorthi",
-            "group": 3
-        },
-        {
-            "id": "A. Calinescu",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Gend Lal Prajapati, PhD",
-            "group": 3
-        },
-        {
-            "id": "Ryan-Rhys Griffiths",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Tomasz Kajdanowicz",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Nitesh V Chawla",
-            "group": 3
-        },
-        {
-            "id": "Kamil Tagowski",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Maciej Falkiewicz",
-            "group": 3
-        },
-        {
-            "id": "Arian Jamasb",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Przemys\u0142aw Kazienko",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Tom L Blundell",
-            "group": 3
+            "group": 2
         },
         {
             "id": "P. Li\u00f3, Pietro Lio, P. Lio, Pietro Li\u00f2, Pie...",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Greg Jefferis",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Giorgio F. Gilestro",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Haitham Bou-Ammar",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Jun Wang",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Jos\u00e9 Miguel Hern\u00e1ndez-Lobato",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Henry B Moss",
-            "group": 3
-        },
-        {
-            "id": "Arian Jamasb",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Alpha Lee",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Jan Peters",
-            "group": 3
+            "group": 2
         },
         {
             "id": "David G. Stork",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Philippe Schwaller",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Sattar Vakili",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Enrique Munoz de Cote",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Bingqing Cheng",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Vidhi Lalchand",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Parashkev Nachev",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Dan Wilkins",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Adam Ingram",
-            "group": 3
+            "group": 2
         },
         {
             "id": "David S. Leslie",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Erin Amira Kara",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Alexis Boukouvalas",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Jian Tang (\u5510\u5efa\uff09",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Xun Xu",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Lihui Wang",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Shimin Liu(\u5218\u4e16\u6c11\uff09",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Zhaojun Qin",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Birgit Vogel-Heuser",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Bin Zhou (\u5468\u5f6c)",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Tianyuan Liu",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Wanqing Xia",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Lianyu Zheng",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Hao Zheng (\u90d1\u6d69)",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Heng Li",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Alice Yan Chang-Richards",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Marwan Gharbia",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Wei Fan",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Wei Ji",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Muhammad Rizwan Asghar",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Yuanbin Wang (\u738b\u6e0a\u5f6c)",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Xinyu Li (\u674e\u5fc3\u96e8)",
-            "group": 3
+            "group": 2
         },
         {
             "id": "David Adrian Tomzik",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Zexuan Zhu",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Xiaodi Huang",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Dazzle Johnson",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Andrew McDaid",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Akhilnandh Ramesh",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Sihan Huang",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Farhad Ameri",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Jose L. Martinez Lastra",
-            "group": 3
+            "group": 2
         },
         {
             "id": "\u7a0b\u521a Cheng Gang",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Simon Baker",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Aniruddh Herle",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Sheldon Williamson",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Vamsi Krishna Pathipati",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Najath Abdul Azeez",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Saritha Balathandayuthapani",
-            "group": 3
+            "group": 2
         },
         {
             "id": "G Narayanan",
-            "group": 3
+            "group": 2
         },
         {
             "id": "Subhankar Mishra",
-            "group": 3
-        },
-        {
-            "id": "Janamejaya Channegowda",
-            "group": 3
+            "group": 2
         }
     ],
     "links": [
         {
             "source": "Edward Elson Kosasih",
             "target": "Angira Sharma",
-            "value": 1
+            "value": 0
         },
         {
             "source": "Edward Elson Kosasih",
             "target": "Zhang Jie",
-            "value": 1
+            "value": 0
         },
         {
             "source": "Edward Elson Kosasih",
             "target": "A. Calinescu",
-            "value": 1
+            "value": 0
         },
         {
             "source": "Edward Elson Kosasih",
             "target": "Ajmal Aziz",
-            "value": 1
+            "value": 0
         },
         {
             "source": "Edward Elson Kosasih",
             "target": "G\u00fcven Demirel",
-            "value": 1
+            "value": 0
         },
         {
             "source": "Edward Elson Kosasih",
             "target": "Piotr Bielak",
-            "value": 1
+            "value": 0
         },
         {
             "source": "Edward Elson Kosasih",
             "target": "Arian Jamasb",
-            "value": 1
+            "value": 0
         },
         {
             "source": "Edward Elson Kosasih",
             "target": "Ryan-Rhys Griffiths",
-            "value": 1
+            "value": 0
         },
         {
             "source": "Edward Elson Kosasih",
             "target": "Kamil Tagowski",
-            "value": 1
+            "value": 0
         },
         {
             "source": "Edward Elson Kosasih",
             "target": "Benedict Aaron Tjandra",
-            "value": 1
+            "value": 0
         },
         {
             "source": "Edward Elson Kosasih",
             "target": "Kelvin Idanwekhai",
-            "value": 1
+            "value": 0
         },
         {
             "source": "Edward Elson Kosasih",
             "target": "Yuqian Lu (\u9646\u7389\u524d\uff09",
-            "value": 1
+            "value": 0
         },
         {
             "source": "Edward Elson Kosasih",
             "target": "Nils Brockmann",
-            "value": 1
+            "value": 0
         },
         {
             "source": "Edward Elson Kosasih",
             "target": "Janamejaya Channegowda",
-            "value": 1
+            "value": 0
         },
         {
             "source": "Edward Elson Kosasih",
             "target": "Rucha Bhalchandra Joshi",
-            "value": 1
+            "value": 0
         },
         {
             "source": "Angira Sharma",
             "target": "Zhang Jie",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Angira Sharma",
             "target": "Philip Torr",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Angira Sharma",
             "target": "Naeemullah Khan",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Angira Sharma",
             "target": "Ganesh Sundaramoorthi",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Angira Sharma",
             "target": "A. Calinescu",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Angira Sharma",
             "target": "Gend Lal Prajapati, PhD",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Ajmal Aziz",
             "target": "Ryan-Rhys Griffiths",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Piotr Bielak",
             "target": "Tomasz Kajdanowicz",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Piotr Bielak",
             "target": "Nitesh V Chawla",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Piotr Bielak",
             "target": "Kamil Tagowski",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Piotr Bielak",
             "target": "Maciej Falkiewicz",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Piotr Bielak",
             "target": "Arian Jamasb",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Piotr Bielak",
             "target": "Przemys\u0142aw Kazienko",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Arian Jamasb",
             "target": "Tom L Blundell",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Arian Jamasb",
             "target": "P. Li\u00f3, Pietro Lio, P. Lio, Pietro Li\u00f2, Pie...",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Arian Jamasb",
             "target": "Greg Jefferis",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Arian Jamasb",
             "target": "Giorgio F. Gilestro",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Ryan-Rhys Griffiths",
             "target": "Haitham Bou-Ammar",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Ryan-Rhys Griffiths",
             "target": "Jun Wang",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Ryan-Rhys Griffiths",
             "target": "Jos\u00e9 Miguel Hern\u00e1ndez-Lobato",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Ryan-Rhys Griffiths",
             "target": "Henry B Moss",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Ryan-Rhys Griffiths",
             "target": "Arian Jamasb",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Ryan-Rhys Griffiths",
             "target": "Alpha Lee",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Ryan-Rhys Griffiths",
             "target": "Jan Peters",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Ryan-Rhys Griffiths",
             "target": "David G. Stork",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Ryan-Rhys Griffiths",
             "target": "Philippe Schwaller",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Ryan-Rhys Griffiths",
             "target": "Sattar Vakili",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Ryan-Rhys Griffiths",
             "target": "Enrique Munoz de Cote",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Ryan-Rhys Griffiths",
             "target": "Bingqing Cheng",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Ryan-Rhys Griffiths",
             "target": "Vidhi Lalchand",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Ryan-Rhys Griffiths",
             "target": "Parashkev Nachev",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Ryan-Rhys Griffiths",
             "target": "Dan Wilkins",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Ryan-Rhys Griffiths",
             "target": "Adam Ingram",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Ryan-Rhys Griffiths",
             "target": "David S. Leslie",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Ryan-Rhys Griffiths",
             "target": "Erin Amira Kara",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Ryan-Rhys Griffiths",
             "target": "Alexis Boukouvalas",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Ryan-Rhys Griffiths",
             "target": "Jian Tang (\u5510\u5efa\uff09",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Yuqian Lu (\u9646\u7389\u524d\uff09",
             "target": "Xun Xu",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Yuqian Lu (\u9646\u7389\u524d\uff09",
             "target": "Lihui Wang",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Yuqian Lu (\u9646\u7389\u524d\uff09",
             "target": "Shimin Liu(\u5218\u4e16\u6c11\uff09",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Yuqian Lu (\u9646\u7389\u524d\uff09",
             "target": "Zhaojun Qin",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Yuqian Lu (\u9646\u7389\u524d\uff09",
             "target": "Birgit Vogel-Heuser",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Yuqian Lu (\u9646\u7389\u524d\uff09",
             "target": "Bin Zhou (\u5468\u5f6c)",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Yuqian Lu (\u9646\u7389\u524d\uff09",
             "target": "Tianyuan Liu",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Yuqian Lu (\u9646\u7389\u524d\uff09",
             "target": "Wanqing Xia",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Yuqian Lu (\u9646\u7389\u524d\uff09",
             "target": "Lianyu Zheng",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Yuqian Lu (\u9646\u7389\u524d\uff09",
             "target": "Hao Zheng (\u90d1\u6d69)",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Yuqian Lu (\u9646\u7389\u524d\uff09",
             "target": "Heng Li",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Yuqian Lu (\u9646\u7389\u524d\uff09",
             "target": "Alice Yan Chang-Richards",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Yuqian Lu (\u9646\u7389\u524d\uff09",
             "target": "Marwan Gharbia",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Yuqian Lu (\u9646\u7389\u524d\uff09",
             "target": "Wei Fan",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Yuqian Lu (\u9646\u7389\u524d\uff09",
             "target": "Wei Ji",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Yuqian Lu (\u9646\u7389\u524d\uff09",
             "target": "Muhammad Rizwan Asghar",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Yuqian Lu (\u9646\u7389\u524d\uff09",
             "target": "Yuanbin Wang (\u738b\u6e0a\u5f6c)",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Yuqian Lu (\u9646\u7389\u524d\uff09",
             "target": "Xinyu Li (\u674e\u5fc3\u96e8)",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Yuqian Lu (\u9646\u7389\u524d\uff09",
             "target": "David Adrian Tomzik",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Yuqian Lu (\u9646\u7389\u524d\uff09",
             "target": "Zexuan Zhu",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Yuqian Lu (\u9646\u7389\u524d\uff09",
             "target": "Xiaodi Huang",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Yuqian Lu (\u9646\u7389\u524d\uff09",
             "target": "Dazzle Johnson",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Yuqian Lu (\u9646\u7389\u524d\uff09",
             "target": "Andrew McDaid",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Yuqian Lu (\u9646\u7389\u524d\uff09",
             "target": "Akhilnandh Ramesh",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Yuqian Lu (\u9646\u7389\u524d\uff09",
             "target": "Sihan Huang",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Yuqian Lu (\u9646\u7389\u524d\uff09",
             "target": "Farhad Ameri",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Yuqian Lu (\u9646\u7389\u524d\uff09",
             "target": "Jose L. Martinez Lastra",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Yuqian Lu (\u9646\u7389\u524d\uff09",
             "target": "\u7a0b\u521a Cheng Gang",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Nils Brockmann",
             "target": "Simon Baker",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Janamejaya Channegowda",
             "target": "Aniruddh Herle",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Janamejaya Channegowda",
             "target": "Sheldon Williamson",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Janamejaya Channegowda",
             "target": "Vamsi Krishna Pathipati",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Janamejaya Channegowda",
             "target": "Najath Abdul Azeez",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Janamejaya Channegowda",
             "target": "Saritha Balathandayuthapani",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Janamejaya Channegowda",
             "target": "G Narayanan",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Rucha Bhalchandra Joshi",
             "target": "Subhankar Mishra",
-            "value": 2
+            "value": 1
         },
         {
             "source": "Rucha Bhalchandra Joshi",
             "target": "Janamejaya Channegowda",
-            "value": 2
+            "value": 1
         }
     ]
 }
