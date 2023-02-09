@@ -1,0 +1,1026 @@
+{
+    "nodes": [
+        {
+            "id": "Edward Elson Kosasih",
+            "group": 0
+        },
+        {
+            "id": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "group": 1
+        },
+        {
+            "id": "DM Bot\u00edn-Sanabria, AS Mihaita, RE Peimbert-Garc\u00eda. 2022. Digital twin technology challenges and applications: A comprehensive review. Remote Sensing",
+            "group": 2
+        },
+        {
+            "id": "SP Ramu, P Boopalan, QV Pham. 2022. Federated learning enabled digital twins for smart cities: Concepts, recent advances, and future directions. Sustainable Cities and \u2026",
+            "group": 2
+        },
+        {
+            "id": "D Ivanov, A Dolgui. 2022. The shortage economy and its implications for supply chain and operations management. International Journal of Production Research",
+            "group": 2
+        },
+        {
+            "id": "M Kosacka-Olejnik, M Kostrzewski, M Marczewska. 2021. How digital twin concept supports internal transport systems?\u2014Literature review. Energies",
+            "group": 2
+        },
+        {
+            "id": "B Lian, Y Zhu, D Branchaud, Y Wang, C Bales. 2022. Application of digital twins for remote operation of membrane capacitive deionization (mCDI) systems. Desalination",
+            "group": 2
+        },
+        {
+            "id": "G Papyshev, M Yarime. 2021. Exploring city digital twins as policy tools: A task-based approach to generating synthetic data on urban mobility. Data & Policy",
+            "group": 2
+        },
+        {
+            "id": "Y Sun, H Fesenko, V Kharchenko, L Zhong. 2022. UAV and IoT-Based Systems for the Monitoring of Industrial Facilities Using Digital Twins: Methodology, Reliability Models, and Application. Sensors",
+            "group": 2
+        },
+        {
+            "id": "P Mu\u00f1oz, J Troya, A Vallecillo. 2021. Using uml and ocl models to realize high-level digital twins. 2021 ACM/IEEE International \u2026",
+            "group": 2
+        },
+        {
+            "id": "J Stjepandi\u0107, M Sommer, S Stobrawa. 2022. Digital twin: conclusion and future perspectives. DigiTwin: An Approach for \u2026",
+            "group": 2
+        },
+        {
+            "id": "J Wen, B Gabrys, K Musial. 2022. Towards Digital Twin Oriented Modelling of Complex Networked Systems and Their Dynamics: A Comprehensive Survey. Ieee Access",
+            "group": 2
+        },
+        {
+            "id": "I Horv\u00e1th. 2022. Designing next-generation cyber-physical systems: Why is it an issue?. Journal of Integrated Design and Process Science",
+            "group": 2
+        },
+        {
+            "id": "S Rabah, G Zacharewicz, V Chapurlat. 2022. Digital Twin for services (DT4S): Conceptual strategy. IFAC-PapersOnLine",
+            "group": 2
+        },
+        {
+            "id": "SVD Niaki, A Shafaghat. 2021. A review of the concept of supply chain digital twin in the era of industry 4.0. J. Appl. Intell. Syst. Inf. Sci",
+            "group": 2
+        },
+        {
+            "id": "R Klar, A Fredriksson, V Angelakis. 2023. Digital Twins for Ports: Derived from Smart City and Supply Chain Twinning Experience. arXiv preprint arXiv:2301.10224",
+            "group": 2
+        },
+        {
+            "id": "KK Alnowaiser, MA Ahmed. 2022. Digital Twin: Current Research Trends and Future Directions. Arabian Journal for Science and Engineering",
+            "group": 2
+        },
+        {
+            "id": "A van Beek, V Karkaria, W Chen. 2022. Digital Twins for the Designs of Systems: a Perspective. arXiv preprint arXiv:2211.05040",
+            "group": 2
+        },
+        {
+            "id": "JML De Ipi\u00f1a, G Aznar, A Lopez, J Olite. 2021. Digital Twins applied to the implementation of Safe-by-Design strategies in nano-processes for the reduction of airborne emission and occupational exposure to nano \u2026. Journal of Physics \u2026",
+            "group": 2
+        },
+        {
+            "id": "S Baidya, SK Das, MH Uddin, C Kosek. 2022. Digital Twin in Safety-Critical Robotics Applications: Opportunities and Challenges. 2022 IEEE \u2026",
+            "group": 2
+        },
+        {
+            "id": "RK Dhanaraj, S Kadry, BG Kang. 2022. Probit Cryptographic Blockchain for Secure Data Transmission in Intelligent Transportation Systems. Journal of Internet \u2026",
+            "group": 2
+        },
+        {
+            "id": "A Hadjadji, S Sattarpanah Karganroudi. 2023. Advances in Smart Maintenance for Sustainable Manufacturing in Industry 4.0. \u2026 in Industry 4.0 \u2026",
+            "group": 2
+        },
+        {
+            "id": "IA Shah, Q Sial, NZ Jhanjhi, L Gaur. 2023. The Role of the IoT and Digital Twin in the Healthcare Digitalization Process: IoT and Digital Twin in the Healthcare Digitalization Process. Digital Twins and Healthcare \u2026",
+            "group": 2
+        },
+        {
+            "id": "IA Shah, Q Sial, NZ Jhanjhi, L Gaur. 2023. Use Cases for Digital Twin. Digital Twins and Healthcare \u2026",
+            "group": 2
+        },
+        {
+            "id": "GC Doubell, AH Basson, K Kruger. 2023. A Digital Twin System to Integrate Data Silos in Railway Infrastructure. Service Oriented, Holonic \u2026",
+            "group": 2
+        },
+        {
+            "id": "M Iliu\u0163\u0103, E Pop, SI Caramihai, MA Moisescu. 2023. A Digital Twin Generic Architecture for Data-Driven Cyber-Physical Production Systems. Service Oriented, Holonic \u2026",
+            "group": 2
+        },
+        {
+            "id": "C Ascone, F Vanderhaegen. 2022. Towards a Holistic Framework for Digital Twins of Human-Machine Systems. IFAC-PapersOnLine",
+            "group": 2
+        },
+        {
+            "id": "G Karakostas, SG Kolliopoulos. 2022. Resource Time-Sharing for IoT Applications with Deadlines. Algorithmics of Wireless Networks: 18th \u2026",
+            "group": 2
+        },
+        {
+            "id": "SP Kovalyov. 2022. Distributed Energy Resources Management: From Digital Twin to Digital Platform. IFAC-PapersOnLine",
+            "group": 2
+        },
+        {
+            "id": "L Binni, A Corneli, M Vaccarini, B Naticchia. 2022. Development of digital twin models supporting ambient assisted living. EC3 Conference 2022",
+            "group": 2
+        },
+        {
+            "id": "M Dhada. 2022. Statistical Hierarchical Modelling for Industrial Collaborative Prognosis. NA",
+            "group": 2
+        },
+        {
+            "id": "GC Doubell. 2022. A Digital Twin System for the Integration of Railway Infrastructure Data.. NA",
+            "group": 2
+        },
+        {
+            "id": "Q Balaj, D Weber. 2022. Joining Forces with a Digital Twin: A study exploring the potential of a Digital Twin of an. Technology",
+            "group": 2
+        },
+        {
+            "id": "V Pavlov. 2022. Security aspects of digital twins in IoT platform. NA",
+            "group": 2
+        },
+        {
+            "id": "C Vega, D G\u00f3mez, A Re\u00f1ones. 2022. Cognitive Solutions in Process Industry: H2020 CAPRI Project. NA",
+            "group": 2
+        },
+        {
+            "id": "M Bill, R Shah. 2022. Utilization of a Digital Twin for an Assembly Line: Exploring the Various Applications of a Digital Twin and the Data and Tools Needed. NA",
+            "group": 2
+        },
+        {
+            "id": "S Stojadinovic, V Majstorovic, S Zivkovic. 2022. An Approach of Development Digital Twin Based on CMM as Support Industry 4.0. Industry \u2026",
+            "group": 2
+        },
+        {
+            "id": "DS Stamoulis. 2022. Managerial Issues in the Adoption of Digital Twins by Shipping Companies in Greece. European Journal of Engineering and Technology \u2026",
+            "group": 2
+        },
+        {
+            "id": "OE Solak. 2022. Comparison of digital twins in different application domains. NA",
+            "group": 2
+        },
+        {
+            "id": "JP DUQUE ORDO\u00d1EZ. 2022. Towards a digital twin of the Italian coast. NA",
+            "group": 2
+        },
+        {
+            "id": "SM Carri\u00f3n. 2021. Digitalization and Optimization of a Production Flow. NA",
+            "group": 2
+        },
+        {
+            "id": "E Genchev, L Maas. NA. How can companies make use of digital twins for their digital transformation?. NA",
+            "group": 2
+        },
+        {
+            "id": "A P\u00e9rez Vigiola. 2021. Desarrollo de aplicaci\u00f3n SW para el dise\u00f1o de soluciones fotogram\u00e9tricas. NA",
+            "group": 2
+        },
+        {
+            "id": "S Mora Carri\u00f3n. 2021. Dise\u00f1o, analisis y optimizaci\u00f3n de un modelo digital del flujo de producci\u00f3n industrial. NA",
+            "group": 2
+        },
+        {
+            "id": "D P\u00e9rez Porras. 2022. Dise\u00f1o y desarrollo de un gemelo digital de un brazo rob\u00f3tico Arduino (TinkerKit Braccio). NA",
+            "group": 2
+        },
+        {
+            "id": "B Levesque, D Gouyon. 2021. Projet \u00abR\u00e9acteur Num\u00e9rique\u00bb: vers un Jumeau Num\u00e9rique de R\u00e9acteur Nucl\u00e9aire. S-mart2021: 17\u00e8me colloque national S-mart",
+            "group": 2
+        },
+        {
+            "id": "J Stjepandi\u0107, N Wognum, WJC Verhagen. 2015. Introduction to the Book. Concurrent Engineering in the \u2026",
+            "group": 2
+        },
+        {
+            "id": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "group": 1
+        },
+        {
+            "id": "M Ardolino, A Bacchetti, A Dolgui. 2022. The Impacts of digital technologies on coping with the COVID-19 pandemic in the manufacturing industry: a systematic literature review. \u2026 Journal of Production \u2026",
+            "group": 2
+        },
+        {
+            "id": "SF Nimmy, OK Hussain, RK Chakrabortty. 2022. Explainability in supply chain operational risk management: A systematic literature review. Knowledge-Based \u2026",
+            "group": 2
+        },
+        {
+            "id": "D Ivanov. 2022. The Industry 5.0 framework: viability-based integration of the resilience, sustainability, and human-centricity perspectives. International Journal of Production Research",
+            "group": 2
+        },
+        {
+            "id": "D Ivanov. 2022. Blackout and supply chains: Cross-structural ripple effect, performance, resilience and viability impact analysis. Annals of Operations Research",
+            "group": 2
+        },
+        {
+            "id": "B Zhou, X Shen, Y Lu, X Li, B Hua, T Liu. 2022. Semantic-aware event link reasoning over industrial knowledge graph embedding time series data. International Journal of \u2026",
+            "group": 2
+        },
+        {
+            "id": "M Mowbray, M Vallerio, C Perez-Galvan. 2022. Industrial data science\u2013a review of machine learning applications for chemical and process industries. Reaction Chemistry & \u2026",
+            "group": 2
+        },
+        {
+            "id": "Y Yan, AHF Chow, CP Ho, YH Kuo, Q Wu. 2022. Reinforcement learning for logistics and supply chain management: Methodologies, state of the art, and future opportunities. \u2026 Research Part E \u2026",
+            "group": 2
+        },
+        {
+            "id": "AA Khan, J Abonyi. 2022. Information sharing in supply chains-Interoperability in an era of circular economy. Cleaner Logistics and Supply Chain",
+            "group": 2
+        },
+        {
+            "id": "EE Kosasih, F Margaroli, S Gelli, A Aziz. 2022. Towards knowledge graph reasoning for supply chain risk management using graph neural networks. \u2026 Journal of Production \u2026",
+            "group": 2
+        },
+        {
+            "id": "R Kalaiarasan, TK Agrawal, J Olhager. 2022. Supply chain visibility for improving inbound logistics: a design science approach. \u2026 Journal of Production \u2026",
+            "group": 2
+        },
+        {
+            "id": "Y Xie, L He, W Xiang, Z Peng, X Ming, M Goh. 2022. Prioritizing risk factors in sustainable supply chain using fuzzy Kano and interval-valued intuitionistic fuzzy QFD. Kybernetes",
+            "group": 2
+        },
+        {
+            "id": "J Namdar, J Blackhurst, A Azadegan. 2022. On synergistic effects of resilience strategies: developing a layered defense approach. International Journal of \u2026",
+            "group": 2
+        },
+        {
+            "id": "LN Ialongo, C de Valk, E Marchese, F Jansen. 2022. Reconstructing firm-level interactions in the Dutch input\u2013output network from production constraints. Scientific Reports",
+            "group": 2
+        },
+        {
+            "id": "P Zhao, Z Li, X Han, X Duan. 2022. Supply chain network resilience by considering disruption propagation: Topological and operational perspectives. IEEE Systems Journal",
+            "group": 2
+        },
+        {
+            "id": "SK Jauhar, SM Jani, SS Kamble, S Pratap. 2023. How to use no-code artificial intelligence to predict and minimize the inventory distortions for resilient supply chains. \u2026 Journal of Production \u2026",
+            "group": 2
+        },
+        {
+            "id": "N Brockmann, E Elson Kosasih, A Brintrup. 2022. Supply Chain Link Prediction on Uncertain Knowledge Graph. ACM SIGKDD Explorations \u2026",
+            "group": 2
+        },
+        {
+            "id": "M Alnahhal, D Ahrens, B Salah. 2021. Dynamic Lead-Time Forecasting Using Machine Learning in a Make-to-Order Supply Chain. Applied Sciences",
+            "group": 2
+        },
+        {
+            "id": "M Rapaccini, VL Cadonna, L Leoni. 2022. Application of machine learning techniques for cost estimation of engineer to order products. International Journal of \u2026",
+            "group": 2
+        },
+        {
+            "id": "V Shivajee, RK Singh, S Rastogi. 2022. Procurement system for resilient supply chain amid the COVID-19 pandemic: systematic literature review. Journal of Global Operations and \u2026",
+            "group": 2
+        },
+        {
+            "id": "A Pu\u0161ka, M Nedeljkovi\u0107, I Stojanovi\u0107, D Bo\u017eani\u0107. 2023. Application of Fuzzy TRUST CRADIS Method for Selection of Sustainable Suppliers in Agribusiness. Sustainability",
+            "group": 2
+        },
+        {
+            "id": "AW Al-Khatib. 2022. Internet of things, big data analytics and operational performance: the mediating effect of supply chain visibility. Journal of Manufacturing Technology Management",
+            "group": 2
+        },
+        {
+            "id": "R Tian, C Kang, J Bi, Z Ma, Y Liu, S Yang. 2023. Learning to multi-vehicle cooperative bin packing problem via sequence-to-sequence policy network with deep reinforcement learning model. Computers & Industrial \u2026",
+            "group": 2
+        },
+        {
+            "id": "L Mungo, F Lafond, P Astudillo-Est\u00e9vez. 2023. Reconstructing production networks using machine learning. Journal of Economic \u2026",
+            "group": 2
+        },
+        {
+            "id": "D Wu, Q Wang, DL Olson. 2023. Industry classification based on supply chain network information using Graph Neural Networks. Applied Soft Computing",
+            "group": 2
+        },
+        {
+            "id": "M Ferriol-Galm\u00e9s, J Paillisse, J Su\u00e1rez-Varela. 2022. RouteNet-Fermi: Network Modeling with Graph Neural Networks. arXiv preprint arXiv \u2026",
+            "group": 2
+        },
+        {
+            "id": "S Jomthanachai, WP Wong, KW Khaw. 2023. An Application of Machine Learning to Logistics Performance Prediction: An Economics Attribute-Based of Collective Instance. Computational Economics",
+            "group": 2
+        },
+        {
+            "id": "F Guerranti, GM Dimitri. 2023. A Comparison of Machine Learning Approaches for Predicting Employee Attrition. Applied Sciences",
+            "group": 2
+        },
+        {
+            "id": "S Wei, Y Zhao. 2022. Graph Learning: A Comprehensive Survey and Future Directions. arXiv preprint arXiv:2212.08966",
+            "group": 2
+        },
+        {
+            "id": "KM Lavassani, ZM Boyd, B Movahedi. 2022. Ten-tier and multi-scale supply chain network analysis of medical equipment: random failure & intelligent attack analysis. International Journal of \u2026",
+            "group": 2
+        },
+        {
+            "id": "B Rolf, N Mebarki, S Lang, T Reggelin, O Cardin. 2022. Using Knowledge Graphs and Human-Centric Artificial Intelligence for Reconfigurable Supply Chains: A Research Framework. IFAC-PapersOnLine",
+            "group": 2
+        },
+        {
+            "id": "E Kosasih, A Brintrup. 2022. Towards Digital Supply Chain Risk Surveillance. IFAC-PapersOnLine",
+            "group": 2
+        },
+        {
+            "id": "M Tang. 2022. Link Prediction with Mixed Structure Attribute of Network. Advances in Artificial Intelligence and Security: 8th \u2026",
+            "group": 2
+        },
+        {
+            "id": "R Kalaiarasan. 2022. Supply chain visibility in the manufacturing industry: conditions and realisation. NA",
+            "group": 2
+        },
+        {
+            "id": "DR Kumar Raja, G Hemanth Kumar. 2022. Data Mining Approach for Prediction of Various Risk Factors in Supply Chain Management. Proceedings of the \u2026",
+            "group": 2
+        },
+        {
+            "id": "M McCall. 2022. Policy, Culture, and People: A Digital Transformation Strategy for NAVSUP, Now and in the Future. NA",
+            "group": 2
+        },
+        {
+            "id": "D Ivanov. NA. Author version of the paper: The Industry 5.0 Framework: Viability-based Integration of the Resilience, Sustainabil-ity, and Human-centricity Perspectives. NA",
+            "group": 2
+        },
+        {
+            "id": "SEG da Costa, F Deschamps. NA. Performance Analytics Role in Operations Strategy. NA",
+            "group": 2
+        },
+        {
+            "id": "A Brintrup, EE Kosasih, BL MacCarthy. 2022. Digital supply chain surveillance: concepts, challenges, and frameworks. The Digital Supply \u2026",
+            "group": 1
+        },
+        {
+            "id": "BL MacCarthy, WAH Ahmed, G Demirel. 2022. Mapping the supply chain: Why, what and how?. International Journal of \u2026",
+            "group": 2
+        },
+        {
+            "id": "G Zheng, L Kong, A Brintrup. 2023. Federated machine learning for privacy preserving, collective supply chain risk prediction. International Journal of Production \u2026",
+            "group": 2
+        },
+        {
+            "id": "D Ivanov, A Dolgui. NA. Author version of the paper: The Shortage Economy and its Implications for Supply Chain and Operations Manage-ment. NA",
+            "group": 2
+        },
+        {
+            "id": "EE Kosasih, A Brintrup. 2021. Reinforcement learning provides a flexible approach for realistic supply chain safety stock optimisation. arXiv preprint arXiv:2107.00913",
+            "group": 1
+        },
+        {
+            "id": "\u00d6 Ergun, J Griffin, N Chicoine, M Gong. 2022. Supply Chain Resilience: Impact of Stakeholder Behavior and Trustworthy Information Sharing with a Case Study on Pharmaceutical Supply Chains. \u2026 Impactful Topics in \u2026",
+            "group": 2
+        },
+        {
+            "id": "T Wang, LJ Hong. 2023. Large-Scale Inventory Optimization: A Recurrent Neural Networks\u2013Inspired Simulation Approach. INFORMS Journal on Computing",
+            "group": 2
+        },
+        {
+            "id": "M Delorme. 2022. Floor van Helsdingen, 511384. NA",
+            "group": 2
+        },
+        {
+            "id": "J Zhang, A Brintrup, A Calinescu, E Kosasih. 2021. Supply chain digital twin framework design: an approach of supply chain operations reference model and system of systems. arXiv preprint arXiv \u2026",
+            "group": 1
+        },
+        {
+            "id": "L Gharaibeh, KM Eriksson, B Lantz. 2022. Toward digital construction supply chain-based Industry 4.0 solutions: scientometric-thematic analysis. Smart and Sustainable \u2026",
+            "group": 2
+        },
+        {
+            "id": "X Zheng. 2022. The Coordination of Multi-Stage Discounts in a Dual Channel Fresh Agricultural Produce Supply Chain: Minimizing the Loss of Quantity and Quality. Sustainability",
+            "group": 2
+        },
+        {
+            "id": "S Chauhan, R Singh, A Gehlot, SV Akram, B Twala. 2022. Digitalization of Supply Chain Management with Industry 4.0 Enabling Technologies: A Sustainable Perspective. Processes",
+            "group": 2
+        },
+        {
+            "id": "KYH Lim, LV Dang, C Ng, C Qijian. 2022. Disruption Mitigation in Complex Hybrid Supply and Production FMCG Networks: A Digital Twin Approach. Available at SSRN \u2026",
+            "group": 2
+        },
+        {
+            "id": "EE Kosasih, F Margaroli, S Gelli, A Aziz. 2022. Towards knowledge graph reasoning for supply chain risk management using graph neural networks. \u2026 Journal of Production \u2026",
+            "group": 1
+        },
+        {
+            "id": "V Ershov. 2023. A Case Study for Compliance as Code with Graphs and Language Models: Public release of the Regulatory Knowledge Graph. arXiv preprint arXiv:2302.01842",
+            "group": 2
+        },
+        {
+            "id": "A Khobragade, R Mahajan, H Langi. 2022. Effective negative triplet sampling for knowledge graph embedding. Journal of Information \u2026",
+            "group": 2
+        },
+        {
+            "id": "EE Kosasih, J Cabezas, X Sumba, P Bielak. 2021. On graph neural network ensembles for large-scale molecular property prediction. arXiv preprint arXiv \u2026",
+            "group": 1
+        },
+        {
+            "id": "Z Li, M Jiang, S Wang, S Zhang. 2022. Deep learning methods for molecular representation and property prediction. Drug Discovery Today",
+            "group": 2
+        },
+        {
+            "id": "A Nagarajan, JR Stevens, A Raghunathan. 2022. Efficient ensembles of graph neural networks. Proceedings of the 59th \u2026",
+            "group": 2
+        },
+        {
+            "id": "M Hang. 2021. Graph Representation Learning for Unsupervised and Semi-supervised Learning Tasks. NA",
+            "group": 2
+        },
+        {
+            "id": "A Aziz, EE Kosasih, RR Griffiths, A Brintrup. 2021. Data considerations in graph representation learning for supply chain networks. arXiv preprint arXiv \u2026",
+            "group": 1
+        },
+        {
+            "id": "H Wang, J Tao, T Peng, A Brintrup. 2022. Dynamic inventory replenishment strategy for aerospace manufacturing supply chain: combining reinforcement learning and multi-agent simulation. \u2026 Journal of Production \u2026",
+            "group": 1
+        },
+        {
+            "id": "B Rolf, I Jackson, M M\u00fcller, S Lang. 2022. A review on reinforcement learning algorithms and applications in supply chain management. \u2026 Journal of Production \u2026",
+            "group": 2
+        },
+        {
+            "id": "O Karaba\u011f, B G\u00f6kg\u00fcr. 2022. Integrated optimisation of pricing, manufacturing, and procurement decisions of a make-to-stock system operating in a fluctuating environment. International Journal of Production \u2026",
+            "group": 2
+        },
+        {
+            "id": "N Brockmann, E Elson Kosasih, A Brintrup. 2022. Supply Chain Link Prediction on Uncertain Knowledge Graph. ACM SIGKDD Explorations \u2026",
+            "group": 1
+        }
+    ],
+    "links": [
+        {
+            "source": "Edward Elson Kosasih",
+            "target": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "value": 0
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "DM Bot\u00edn-Sanabria, AS Mihaita, RE Peimbert-Garc\u00eda. 2022. Digital twin technology challenges and applications: A comprehensive review. Remote Sensing",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "SP Ramu, P Boopalan, QV Pham. 2022. Federated learning enabled digital twins for smart cities: Concepts, recent advances, and future directions. Sustainable Cities and \u2026",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "D Ivanov, A Dolgui. 2022. The shortage economy and its implications for supply chain and operations management. International Journal of Production Research",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "M Kosacka-Olejnik, M Kostrzewski, M Marczewska. 2021. How digital twin concept supports internal transport systems?\u2014Literature review. Energies",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "B Lian, Y Zhu, D Branchaud, Y Wang, C Bales. 2022. Application of digital twins for remote operation of membrane capacitive deionization (mCDI) systems. Desalination",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "G Papyshev, M Yarime. 2021. Exploring city digital twins as policy tools: A task-based approach to generating synthetic data on urban mobility. Data & Policy",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "Y Sun, H Fesenko, V Kharchenko, L Zhong. 2022. UAV and IoT-Based Systems for the Monitoring of Industrial Facilities Using Digital Twins: Methodology, Reliability Models, and Application. Sensors",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "P Mu\u00f1oz, J Troya, A Vallecillo. 2021. Using uml and ocl models to realize high-level digital twins. 2021 ACM/IEEE International \u2026",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "J Stjepandi\u0107, M Sommer, S Stobrawa. 2022. Digital twin: conclusion and future perspectives. DigiTwin: An Approach for \u2026",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "J Wen, B Gabrys, K Musial. 2022. Towards Digital Twin Oriented Modelling of Complex Networked Systems and Their Dynamics: A Comprehensive Survey. Ieee Access",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "I Horv\u00e1th. 2022. Designing next-generation cyber-physical systems: Why is it an issue?. Journal of Integrated Design and Process Science",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "S Rabah, G Zacharewicz, V Chapurlat. 2022. Digital Twin for services (DT4S): Conceptual strategy. IFAC-PapersOnLine",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "SVD Niaki, A Shafaghat. 2021. A review of the concept of supply chain digital twin in the era of industry 4.0. J. Appl. Intell. Syst. Inf. Sci",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "R Klar, A Fredriksson, V Angelakis. 2023. Digital Twins for Ports: Derived from Smart City and Supply Chain Twinning Experience. arXiv preprint arXiv:2301.10224",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "KK Alnowaiser, MA Ahmed. 2022. Digital Twin: Current Research Trends and Future Directions. Arabian Journal for Science and Engineering",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "A van Beek, V Karkaria, W Chen. 2022. Digital Twins for the Designs of Systems: a Perspective. arXiv preprint arXiv:2211.05040",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "JML De Ipi\u00f1a, G Aznar, A Lopez, J Olite. 2021. Digital Twins applied to the implementation of Safe-by-Design strategies in nano-processes for the reduction of airborne emission and occupational exposure to nano \u2026. Journal of Physics \u2026",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "S Baidya, SK Das, MH Uddin, C Kosek. 2022. Digital Twin in Safety-Critical Robotics Applications: Opportunities and Challenges. 2022 IEEE \u2026",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "RK Dhanaraj, S Kadry, BG Kang. 2022. Probit Cryptographic Blockchain for Secure Data Transmission in Intelligent Transportation Systems. Journal of Internet \u2026",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "A Hadjadji, S Sattarpanah Karganroudi. 2023. Advances in Smart Maintenance for Sustainable Manufacturing in Industry 4.0. \u2026 in Industry 4.0 \u2026",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "IA Shah, Q Sial, NZ Jhanjhi, L Gaur. 2023. The Role of the IoT and Digital Twin in the Healthcare Digitalization Process: IoT and Digital Twin in the Healthcare Digitalization Process. Digital Twins and Healthcare \u2026",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "IA Shah, Q Sial, NZ Jhanjhi, L Gaur. 2023. Use Cases for Digital Twin. Digital Twins and Healthcare \u2026",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "GC Doubell, AH Basson, K Kruger. 2023. A Digital Twin System to Integrate Data Silos in Railway Infrastructure. Service Oriented, Holonic \u2026",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "M Iliu\u0163\u0103, E Pop, SI Caramihai, MA Moisescu. 2023. A Digital Twin Generic Architecture for Data-Driven Cyber-Physical Production Systems. Service Oriented, Holonic \u2026",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "C Ascone, F Vanderhaegen. 2022. Towards a Holistic Framework for Digital Twins of Human-Machine Systems. IFAC-PapersOnLine",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "G Karakostas, SG Kolliopoulos. 2022. Resource Time-Sharing for IoT Applications with Deadlines. Algorithmics of Wireless Networks: 18th \u2026",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "SP Kovalyov. 2022. Distributed Energy Resources Management: From Digital Twin to Digital Platform. IFAC-PapersOnLine",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "L Binni, A Corneli, M Vaccarini, B Naticchia. 2022. Development of digital twin models supporting ambient assisted living. EC3 Conference 2022",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "M Dhada. 2022. Statistical Hierarchical Modelling for Industrial Collaborative Prognosis. NA",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "GC Doubell. 2022. A Digital Twin System for the Integration of Railway Infrastructure Data.. NA",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "Q Balaj, D Weber. 2022. Joining Forces with a Digital Twin: A study exploring the potential of a Digital Twin of an. Technology",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "V Pavlov. 2022. Security aspects of digital twins in IoT platform. NA",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "C Vega, D G\u00f3mez, A Re\u00f1ones. 2022. Cognitive Solutions in Process Industry: H2020 CAPRI Project. NA",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "M Bill, R Shah. 2022. Utilization of a Digital Twin for an Assembly Line: Exploring the Various Applications of a Digital Twin and the Data and Tools Needed. NA",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "S Stojadinovic, V Majstorovic, S Zivkovic. 2022. An Approach of Development Digital Twin Based on CMM as Support Industry 4.0. Industry \u2026",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "DS Stamoulis. 2022. Managerial Issues in the Adoption of Digital Twins by Shipping Companies in Greece. European Journal of Engineering and Technology \u2026",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "OE Solak. 2022. Comparison of digital twins in different application domains. NA",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "JP DUQUE ORDO\u00d1EZ. 2022. Towards a digital twin of the Italian coast. NA",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "SM Carri\u00f3n. 2021. Digitalization and Optimization of a Production Flow. NA",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "E Genchev, L Maas. NA. How can companies make use of digital twins for their digital transformation?. NA",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "A P\u00e9rez Vigiola. 2021. Desarrollo de aplicaci\u00f3n SW para el dise\u00f1o de soluciones fotogram\u00e9tricas. NA",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "S Mora Carri\u00f3n. 2021. Dise\u00f1o, analisis y optimizaci\u00f3n de un modelo digital del flujo de producci\u00f3n industrial. NA",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "D P\u00e9rez Porras. 2022. Dise\u00f1o y desarrollo de un gemelo digital de un brazo rob\u00f3tico Arduino (TinkerKit Braccio). NA",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "B Levesque, D Gouyon. 2021. Projet \u00abR\u00e9acteur Num\u00e9rique\u00bb: vers un Jumeau Num\u00e9rique de R\u00e9acteur Nucl\u00e9aire. S-mart2021: 17\u00e8me colloque national S-mart",
+            "value": 1
+        },
+        {
+            "source": "A Sharma, E Kosasih, J Zhang, A Brintrup. 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial \u2026",
+            "target": "J Stjepandi\u0107, N Wognum, WJC Verhagen. 2015. Introduction to the Book. Concurrent Engineering in the \u2026",
+            "value": 1
+        },
+        {
+            "source": "Edward Elson Kosasih",
+            "target": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "value": 0
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "target": "M Ardolino, A Bacchetti, A Dolgui. 2022. The Impacts of digital technologies on coping with the COVID-19 pandemic in the manufacturing industry: a systematic literature review. \u2026 Journal of Production \u2026",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "target": "SF Nimmy, OK Hussain, RK Chakrabortty. 2022. Explainability in supply chain operational risk management: A systematic literature review. Knowledge-Based \u2026",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "target": "D Ivanov. 2022. The Industry 5.0 framework: viability-based integration of the resilience, sustainability, and human-centricity perspectives. International Journal of Production Research",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "target": "D Ivanov. 2022. Blackout and supply chains: Cross-structural ripple effect, performance, resilience and viability impact analysis. Annals of Operations Research",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "target": "B Zhou, X Shen, Y Lu, X Li, B Hua, T Liu. 2022. Semantic-aware event link reasoning over industrial knowledge graph embedding time series data. International Journal of \u2026",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "target": "M Mowbray, M Vallerio, C Perez-Galvan. 2022. Industrial data science\u2013a review of machine learning applications for chemical and process industries. Reaction Chemistry & \u2026",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "target": "Y Yan, AHF Chow, CP Ho, YH Kuo, Q Wu. 2022. Reinforcement learning for logistics and supply chain management: Methodologies, state of the art, and future opportunities. \u2026 Research Part E \u2026",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "target": "AA Khan, J Abonyi. 2022. Information sharing in supply chains-Interoperability in an era of circular economy. Cleaner Logistics and Supply Chain",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "target": "EE Kosasih, F Margaroli, S Gelli, A Aziz. 2022. Towards knowledge graph reasoning for supply chain risk management using graph neural networks. \u2026 Journal of Production \u2026",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "target": "R Kalaiarasan, TK Agrawal, J Olhager. 2022. Supply chain visibility for improving inbound logistics: a design science approach. \u2026 Journal of Production \u2026",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "target": "Y Xie, L He, W Xiang, Z Peng, X Ming, M Goh. 2022. Prioritizing risk factors in sustainable supply chain using fuzzy Kano and interval-valued intuitionistic fuzzy QFD. Kybernetes",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "target": "J Namdar, J Blackhurst, A Azadegan. 2022. On synergistic effects of resilience strategies: developing a layered defense approach. International Journal of \u2026",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "target": "LN Ialongo, C de Valk, E Marchese, F Jansen. 2022. Reconstructing firm-level interactions in the Dutch input\u2013output network from production constraints. Scientific Reports",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "target": "P Zhao, Z Li, X Han, X Duan. 2022. Supply chain network resilience by considering disruption propagation: Topological and operational perspectives. IEEE Systems Journal",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "target": "SK Jauhar, SM Jani, SS Kamble, S Pratap. 2023. How to use no-code artificial intelligence to predict and minimize the inventory distortions for resilient supply chains. \u2026 Journal of Production \u2026",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "target": "N Brockmann, E Elson Kosasih, A Brintrup. 2022. Supply Chain Link Prediction on Uncertain Knowledge Graph. ACM SIGKDD Explorations \u2026",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "target": "M Alnahhal, D Ahrens, B Salah. 2021. Dynamic Lead-Time Forecasting Using Machine Learning in a Make-to-Order Supply Chain. Applied Sciences",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "target": "M Rapaccini, VL Cadonna, L Leoni. 2022. Application of machine learning techniques for cost estimation of engineer to order products. International Journal of \u2026",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "target": "V Shivajee, RK Singh, S Rastogi. 2022. Procurement system for resilient supply chain amid the COVID-19 pandemic: systematic literature review. Journal of Global Operations and \u2026",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "target": "A Pu\u0161ka, M Nedeljkovi\u0107, I Stojanovi\u0107, D Bo\u017eani\u0107. 2023. Application of Fuzzy TRUST CRADIS Method for Selection of Sustainable Suppliers in Agribusiness. Sustainability",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "target": "AW Al-Khatib. 2022. Internet of things, big data analytics and operational performance: the mediating effect of supply chain visibility. Journal of Manufacturing Technology Management",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "target": "R Tian, C Kang, J Bi, Z Ma, Y Liu, S Yang. 2023. Learning to multi-vehicle cooperative bin packing problem via sequence-to-sequence policy network with deep reinforcement learning model. Computers & Industrial \u2026",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "target": "L Mungo, F Lafond, P Astudillo-Est\u00e9vez. 2023. Reconstructing production networks using machine learning. Journal of Economic \u2026",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "target": "D Wu, Q Wang, DL Olson. 2023. Industry classification based on supply chain network information using Graph Neural Networks. Applied Soft Computing",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "target": "M Ferriol-Galm\u00e9s, J Paillisse, J Su\u00e1rez-Varela. 2022. RouteNet-Fermi: Network Modeling with Graph Neural Networks. arXiv preprint arXiv \u2026",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "target": "S Jomthanachai, WP Wong, KW Khaw. 2023. An Application of Machine Learning to Logistics Performance Prediction: An Economics Attribute-Based of Collective Instance. Computational Economics",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "target": "F Guerranti, GM Dimitri. 2023. A Comparison of Machine Learning Approaches for Predicting Employee Attrition. Applied Sciences",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "target": "S Wei, Y Zhao. 2022. Graph Learning: A Comprehensive Survey and Future Directions. arXiv preprint arXiv:2212.08966",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "target": "KM Lavassani, ZM Boyd, B Movahedi. 2022. Ten-tier and multi-scale supply chain network analysis of medical equipment: random failure & intelligent attack analysis. International Journal of \u2026",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "target": "B Rolf, N Mebarki, S Lang, T Reggelin, O Cardin. 2022. Using Knowledge Graphs and Human-Centric Artificial Intelligence for Reconfigurable Supply Chains: A Research Framework. IFAC-PapersOnLine",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "target": "E Kosasih, A Brintrup. 2022. Towards Digital Supply Chain Risk Surveillance. IFAC-PapersOnLine",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "target": "M Tang. 2022. Link Prediction with Mixed Structure Attribute of Network. Advances in Artificial Intelligence and Security: 8th \u2026",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "target": "R Kalaiarasan. 2022. Supply chain visibility in the manufacturing industry: conditions and realisation. NA",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "target": "DR Kumar Raja, G Hemanth Kumar. 2022. Data Mining Approach for Prediction of Various Risk Factors in Supply Chain Management. Proceedings of the \u2026",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "target": "M McCall. 2022. Policy, Culture, and People: A Digital Transformation Strategy for NAVSUP, Now and in the Future. NA",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "target": "D Ivanov. NA. Author version of the paper: The Industry 5.0 Framework: Viability-based Integration of the Resilience, Sustainabil-ity, and Human-centricity Perspectives. NA",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2022. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production \u2026",
+            "target": "SEG da Costa, F Deschamps. NA. Performance Analytics Role in Operations Strategy. NA",
+            "value": 1
+        },
+        {
+            "source": "Edward Elson Kosasih",
+            "target": "A Brintrup, EE Kosasih, BL MacCarthy. 2022. Digital supply chain surveillance: concepts, challenges, and frameworks. The Digital Supply \u2026",
+            "value": 0
+        },
+        {
+            "source": "A Brintrup, EE Kosasih, BL MacCarthy. 2022. Digital supply chain surveillance: concepts, challenges, and frameworks. The Digital Supply \u2026",
+            "target": "D Ivanov, A Dolgui. 2022. The shortage economy and its implications for supply chain and operations management. International Journal of Production Research",
+            "value": 1
+        },
+        {
+            "source": "A Brintrup, EE Kosasih, BL MacCarthy. 2022. Digital supply chain surveillance: concepts, challenges, and frameworks. The Digital Supply \u2026",
+            "target": "BL MacCarthy, WAH Ahmed, G Demirel. 2022. Mapping the supply chain: Why, what and how?. International Journal of \u2026",
+            "value": 1
+        },
+        {
+            "source": "A Brintrup, EE Kosasih, BL MacCarthy. 2022. Digital supply chain surveillance: concepts, challenges, and frameworks. The Digital Supply \u2026",
+            "target": "EE Kosasih, F Margaroli, S Gelli, A Aziz. 2022. Towards knowledge graph reasoning for supply chain risk management using graph neural networks. \u2026 Journal of Production \u2026",
+            "value": 1
+        },
+        {
+            "source": "A Brintrup, EE Kosasih, BL MacCarthy. 2022. Digital supply chain surveillance: concepts, challenges, and frameworks. The Digital Supply \u2026",
+            "target": "G Zheng, L Kong, A Brintrup. 2023. Federated machine learning for privacy preserving, collective supply chain risk prediction. International Journal of Production \u2026",
+            "value": 1
+        },
+        {
+            "source": "A Brintrup, EE Kosasih, BL MacCarthy. 2022. Digital supply chain surveillance: concepts, challenges, and frameworks. The Digital Supply \u2026",
+            "target": "D Ivanov, A Dolgui. NA. Author version of the paper: The Shortage Economy and its Implications for Supply Chain and Operations Manage-ment. NA",
+            "value": 1
+        },
+        {
+            "source": "Edward Elson Kosasih",
+            "target": "EE Kosasih, A Brintrup. 2021. Reinforcement learning provides a flexible approach for realistic supply chain safety stock optimisation. arXiv preprint arXiv:2107.00913",
+            "value": 0
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2021. Reinforcement learning provides a flexible approach for realistic supply chain safety stock optimisation. arXiv preprint arXiv:2107.00913",
+            "target": "Y Yan, AHF Chow, CP Ho, YH Kuo, Q Wu. 2022. Reinforcement learning for logistics and supply chain management: Methodologies, state of the art, and future opportunities. \u2026 Research Part E \u2026",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2021. Reinforcement learning provides a flexible approach for realistic supply chain safety stock optimisation. arXiv preprint arXiv:2107.00913",
+            "target": "\u00d6 Ergun, J Griffin, N Chicoine, M Gong. 2022. Supply Chain Resilience: Impact of Stakeholder Behavior and Trustworthy Information Sharing with a Case Study on Pharmaceutical Supply Chains. \u2026 Impactful Topics in \u2026",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2021. Reinforcement learning provides a flexible approach for realistic supply chain safety stock optimisation. arXiv preprint arXiv:2107.00913",
+            "target": "T Wang, LJ Hong. 2023. Large-Scale Inventory Optimization: A Recurrent Neural Networks\u2013Inspired Simulation Approach. INFORMS Journal on Computing",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, A Brintrup. 2021. Reinforcement learning provides a flexible approach for realistic supply chain safety stock optimisation. arXiv preprint arXiv:2107.00913",
+            "target": "M Delorme. 2022. Floor van Helsdingen, 511384. NA",
+            "value": 1
+        },
+        {
+            "source": "Edward Elson Kosasih",
+            "target": "J Zhang, A Brintrup, A Calinescu, E Kosasih. 2021. Supply chain digital twin framework design: an approach of supply chain operations reference model and system of systems. arXiv preprint arXiv \u2026",
+            "value": 0
+        },
+        {
+            "source": "J Zhang, A Brintrup, A Calinescu, E Kosasih. 2021. Supply chain digital twin framework design: an approach of supply chain operations reference model and system of systems. arXiv preprint arXiv \u2026",
+            "target": "L Gharaibeh, KM Eriksson, B Lantz. 2022. Toward digital construction supply chain-based Industry 4.0 solutions: scientometric-thematic analysis. Smart and Sustainable \u2026",
+            "value": 1
+        },
+        {
+            "source": "J Zhang, A Brintrup, A Calinescu, E Kosasih. 2021. Supply chain digital twin framework design: an approach of supply chain operations reference model and system of systems. arXiv preprint arXiv \u2026",
+            "target": "X Zheng. 2022. The Coordination of Multi-Stage Discounts in a Dual Channel Fresh Agricultural Produce Supply Chain: Minimizing the Loss of Quantity and Quality. Sustainability",
+            "value": 1
+        },
+        {
+            "source": "J Zhang, A Brintrup, A Calinescu, E Kosasih. 2021. Supply chain digital twin framework design: an approach of supply chain operations reference model and system of systems. arXiv preprint arXiv \u2026",
+            "target": "S Chauhan, R Singh, A Gehlot, SV Akram, B Twala. 2022. Digitalization of Supply Chain Management with Industry 4.0 Enabling Technologies: A Sustainable Perspective. Processes",
+            "value": 1
+        },
+        {
+            "source": "J Zhang, A Brintrup, A Calinescu, E Kosasih. 2021. Supply chain digital twin framework design: an approach of supply chain operations reference model and system of systems. arXiv preprint arXiv \u2026",
+            "target": "KYH Lim, LV Dang, C Ng, C Qijian. 2022. Disruption Mitigation in Complex Hybrid Supply and Production FMCG Networks: A Digital Twin Approach. Available at SSRN \u2026",
+            "value": 1
+        },
+        {
+            "source": "Edward Elson Kosasih",
+            "target": "EE Kosasih, F Margaroli, S Gelli, A Aziz. 2022. Towards knowledge graph reasoning for supply chain risk management using graph neural networks. \u2026 Journal of Production \u2026",
+            "value": 0
+        },
+        {
+            "source": "EE Kosasih, F Margaroli, S Gelli, A Aziz. 2022. Towards knowledge graph reasoning for supply chain risk management using graph neural networks. \u2026 Journal of Production \u2026",
+            "target": "N Brockmann, E Elson Kosasih, A Brintrup. 2022. Supply Chain Link Prediction on Uncertain Knowledge Graph. ACM SIGKDD Explorations \u2026",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, F Margaroli, S Gelli, A Aziz. 2022. Towards knowledge graph reasoning for supply chain risk management using graph neural networks. \u2026 Journal of Production \u2026",
+            "target": "V Ershov. 2023. A Case Study for Compliance as Code with Graphs and Language Models: Public release of the Regulatory Knowledge Graph. arXiv preprint arXiv:2302.01842",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, F Margaroli, S Gelli, A Aziz. 2022. Towards knowledge graph reasoning for supply chain risk management using graph neural networks. \u2026 Journal of Production \u2026",
+            "target": "A Khobragade, R Mahajan, H Langi. 2022. Effective negative triplet sampling for knowledge graph embedding. Journal of Information \u2026",
+            "value": 1
+        },
+        {
+            "source": "Edward Elson Kosasih",
+            "target": "EE Kosasih, J Cabezas, X Sumba, P Bielak. 2021. On graph neural network ensembles for large-scale molecular property prediction. arXiv preprint arXiv \u2026",
+            "value": 0
+        },
+        {
+            "source": "EE Kosasih, J Cabezas, X Sumba, P Bielak. 2021. On graph neural network ensembles for large-scale molecular property prediction. arXiv preprint arXiv \u2026",
+            "target": "Z Li, M Jiang, S Wang, S Zhang. 2022. Deep learning methods for molecular representation and property prediction. Drug Discovery Today",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, J Cabezas, X Sumba, P Bielak. 2021. On graph neural network ensembles for large-scale molecular property prediction. arXiv preprint arXiv \u2026",
+            "target": "A Nagarajan, JR Stevens, A Raghunathan. 2022. Efficient ensembles of graph neural networks. Proceedings of the 59th \u2026",
+            "value": 1
+        },
+        {
+            "source": "EE Kosasih, J Cabezas, X Sumba, P Bielak. 2021. On graph neural network ensembles for large-scale molecular property prediction. arXiv preprint arXiv \u2026",
+            "target": "M Hang. 2021. Graph Representation Learning for Unsupervised and Semi-supervised Learning Tasks. NA",
+            "value": 1
+        },
+        {
+            "source": "Edward Elson Kosasih",
+            "target": "A Aziz, EE Kosasih, RR Griffiths, A Brintrup. 2021. Data considerations in graph representation learning for supply chain networks. arXiv preprint arXiv \u2026",
+            "value": 0
+        },
+        {
+            "source": "A Aziz, EE Kosasih, RR Griffiths, A Brintrup. 2021. Data considerations in graph representation learning for supply chain networks. arXiv preprint arXiv \u2026",
+            "target": "M Mowbray, M Vallerio, C Perez-Galvan. 2022. Industrial data science\u2013a review of machine learning applications for chemical and process industries. Reaction Chemistry & \u2026",
+            "value": 1
+        },
+        {
+            "source": "A Aziz, EE Kosasih, RR Griffiths, A Brintrup. 2021. Data considerations in graph representation learning for supply chain networks. arXiv preprint arXiv \u2026",
+            "target": "N Brockmann, E Elson Kosasih, A Brintrup. 2022. Supply Chain Link Prediction on Uncertain Knowledge Graph. ACM SIGKDD Explorations \u2026",
+            "value": 1
+        },
+        {
+            "source": "A Aziz, EE Kosasih, RR Griffiths, A Brintrup. 2021. Data considerations in graph representation learning for supply chain networks. arXiv preprint arXiv \u2026",
+            "target": "B Rolf, N Mebarki, S Lang, T Reggelin, O Cardin. 2022. Using Knowledge Graphs and Human-Centric Artificial Intelligence for Reconfigurable Supply Chains: A Research Framework. IFAC-PapersOnLine",
+            "value": 1
+        },
+        {
+            "source": "Edward Elson Kosasih",
+            "target": "H Wang, J Tao, T Peng, A Brintrup. 2022. Dynamic inventory replenishment strategy for aerospace manufacturing supply chain: combining reinforcement learning and multi-agent simulation. \u2026 Journal of Production \u2026",
+            "value": 0
+        },
+        {
+            "source": "H Wang, J Tao, T Peng, A Brintrup. 2022. Dynamic inventory replenishment strategy for aerospace manufacturing supply chain: combining reinforcement learning and multi-agent simulation. \u2026 Journal of Production \u2026",
+            "target": "B Rolf, I Jackson, M M\u00fcller, S Lang. 2022. A review on reinforcement learning algorithms and applications in supply chain management. \u2026 Journal of Production \u2026",
+            "value": 1
+        },
+        {
+            "source": "H Wang, J Tao, T Peng, A Brintrup. 2022. Dynamic inventory replenishment strategy for aerospace manufacturing supply chain: combining reinforcement learning and multi-agent simulation. \u2026 Journal of Production \u2026",
+            "target": "O Karaba\u011f, B G\u00f6kg\u00fcr. 2022. Integrated optimisation of pricing, manufacturing, and procurement decisions of a make-to-stock system operating in a fluctuating environment. International Journal of Production \u2026",
+            "value": 1
+        },
+        {
+            "source": "Edward Elson Kosasih",
+            "target": "N Brockmann, E Elson Kosasih, A Brintrup. 2022. Supply Chain Link Prediction on Uncertain Knowledge Graph. ACM SIGKDD Explorations \u2026",
+            "value": 0
+        }
+    ]
+}
