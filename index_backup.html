@@ -1,0 +1,607 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Edward Elson Kosasih</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-157941714-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-157941714-1');
+		</script>
+
+	</head>
+	<body>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+			<script src="https://unpkg.com/3d-force-graph"></script>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<span class="logo">
+							<ul class="icons">
+									<li><a class="icon fa-bar-chart fa-2x alt"><span class="label"></span></a></li>
+
+							</ul>				
+						</span>
+						<h1>Edward Elson Kosasih</h1>
+						<p>Explore. Experience. Knowledge.</p>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#intro" class="active">About Me</a></li>
+							<li><a href="#research">Research</a></li>
+							<li><a href="#education">Education</a></li>
+							<li><a href="#finance">Finance</a></li>
+							<li><a href="#arts">Arts</a></li>
+							<li><a href="#engineering">Engineering</a></li>
+							<!-- <li><a href="#activities">Activities</a></li> -->
+							<!-- <li><a href="#cta">Interests</a></li> -->
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Introduction -->
+							<section id="intro" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>About Me</h2>
+										</header>
+										<p>Hello! I'm a quantitative researcher with background in operations research and machine learning. I'm currently pursuing a PhD at the <a href="https://www.c2d3.cam.ac.uk/news/aviva-cambridge-partnership-new-phd-students-202021-academic-year">Cambridge Centre for Data-Driven Discovery</a> and <a href="https://www.ifm.eng.cam.ac.uk">Department of Engineering</a>, University of Cambridge.
+										</p>
+									</div>
+									<span class="image"><img src="images/edward.jpg" alt="" /></span>
+								</div>
+								
+							</section>						
+
+							<section id="research" class="main special">
+								<header class="major">
+									<h2>Research</h2>
+									<h4>My research philosophy is to connect the dots (literally) between different field of science. </h4>
+								</header>
+								<header class="minor">
+									<h2>My Co-authors Network</h2>
+									<h5>Click on the nodes to see more details on whom have I been working with! </h5>
+									<h5>My approach is to collaborate with researchers from diverse backgrounds, from first-time authors to seasoned academics.</h5>
+									<div id="coauthor-graph"></div>
+									  <script>
+										const coauthorelem = document.getElementById('coauthor-graph');
+
+										const CoauthorGraph = ForceGraph3D()(coauthorelem)
+											.width(0.7*window.innerWidth)
+											.height(0.7*window.innerHeight)
+											.backgroundColor("#FFFFFF")
+											.nodeRelSize(6)
+											.linkColor("#000000")
+											.linkWidth(2)
+											.linkOpacity(0.4)
+											.jsonUrl('https://raw.githubusercontent.com/edwardelson/edwardelson.github.io/master/files/coauthor_citations.json')
+											.nodeLabel('id')
+											.nodeAutoColorBy('group')
+											.onNodeClick(node => {
+											  // Aim at node from outside it
+											  const distance = 40;
+											  const distRatio = 1 + distance/Math.hypot(node.x, node.y, node.z);
+
+											  const newPos = node.x || node.y || node.z
+												? { x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio }
+												: { x: 0, y: 0, z: distance }; // special case if node is in (0,0,0)
+
+											  CoauthorGraph.cameraPosition(
+												newPos, // new position
+												node, // lookAt ({ x, y, z })
+												3000  // ms transition duration
+											  );
+											});
+
+										// Spread nodes a little wider
+										CoauthorGraph.d3Force('charge').strength(-120);
+										
+									  </script>
+								</header>
+								<br>
+								<header class="minor">
+									<h2>My Citation Network</h2>
+									<h5>Click on the nodes to see more details on how my publications have been further developed!</h5>
+									<h5>My methodology is to develop and combine ideas from different domain, including graph neural networks, explainable AI, reinforcement learning, supply chain, digital twin to risk management. </h5>
+									<div id="pub-graph"></div>
+									  <script>
+										const pubelem = document.getElementById('pub-graph');
+
+										const PubGraph = ForceGraph3D()(pubelem)
+											.width(0.7*window.innerWidth)
+											.height(0.7*window.innerHeight)
+											.backgroundColor("#FFFFFF")
+											.nodeRelSize(6)
+											.linkColor("#000000")
+											.linkWidth(2)
+											.linkOpacity(0.4)
+											.jsonUrl('https://raw.githubusercontent.com/edwardelson/edwardelson.github.io/master/files/publication_citations.json')
+											.nodeLabel('id')
+											.nodeAutoColorBy('group')
+											.onNodeClick(node => {
+											  // Aim at node from outside it
+											  const distance = 40;
+											  const distRatio = 1 + distance/Math.hypot(node.x, node.y, node.z);
+
+											  const newPos = node.x || node.y || node.z
+												? { x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio }
+												: { x: 0, y: 0, z: distance }; // special case if node is in (0,0,0)
+
+											  PubGraph.cameraPosition(
+												newPos, // new position
+												node, // lookAt ({ x, y, z })
+												3000  // ms transition duration
+											  );
+											});
+
+										// Spread nodes a little wider
+										PubGraph.d3Force('charge').strength(-120);
+									  </script>
+								</header>
+								<br>								
+								<header class="minor">
+									<h2>Journal Publications</h2>
+									<h5><a href="https://www.tandfonline.com/doi/full/10.1080/00207543.2021.1956697"><b>Kosasih, E.E.</b> and Brintrup, A., 2021. A machine learning approach for predicting hidden links in supply chain with graph neural networks. International Journal of Production Research, 60(17), pp.5380-5393.</a></h5>
+									<h5><a href="https://www.tandfonline.com/doi/full/10.1080/00207543.2022.2100841"><b>Kosasih, E.E.</b>, Margaroli, F., Gelli, S., Aziz, A., Wildgoose, N. and Brintrup, A., 2022. Towards knowledge graph reasoning for supply chain risk management using graph neural networks. International Journal of Production Research, pp.1-17.</a></h5>
+									<h5><a href="https://www.sciencedirect.com/science/article/pii/S2452414X22000516">Sharma, A., <b>Kosasih, E.E.</b>, Zhang, J., Brintrup, A. and Calinescu, A., 2022. Digital twins: State of the art theory and practice, challenges, and open research questions. Journal of Industrial Information Integration, p.100383.</a></h5>
+									<h5><a href="https://www.tandfonline.com/doi/full/10.1080/00207543.2021.2020927">Wang, H., Tao, J., Peng, T., Brintrup, A., <b>Kosasih, E.E.</b>, Lu, Y., Tang, R. and Hu, L., 2022. Dynamic inventory replenishment strategy for aerospace manufacturing supply chain: combining reinforcement learning and multi-agent simulation. International Journal of Production Research, pp.1-20.</a></h5>
+								</header>
+							
+								<header class="minor">
+									<h2>Conference Publications</h2>
+									<h5><a href="https://www.sciencedirect.com/science/article/pii/S2405896322020936"><b>Kosasih, E. E.</b> and Brintrup, A., 2022. Towards Digital Supply Chain Risk Surveillance. IFAC-PapersOnLine, 55(10), pp.2499-2504.</a></h5>
+									<h5><a href="https://www.sciencedirect.com/science/article/pii/S240589632201919X"><b>Kosasih, E.E.</b> and Brintrup, A., 2022. Reinforcement learning provides a flexible approach for realistic supply chain safety stock optimisation. IFAC-PapersOnLine, 55(10), pp.1539-1544.</a></h5>									
+								</header>
+
+								<header class="minor">
+									<h2>Workshop Publications</h2>
+									<h5><a href="https://www.repository.cam.ac.uk/handle/1810/339525">Brockmann, N., <b>Kosasih, E.E.</b>, Margaroli, F., Gelli, S., Aziz, A., Wildgoose, N. and Brintrup, A., 2022. Supply Chain Link Prediction on an Uncertain Knowledge Graph. ECML-PKDD AI4Manufacturing Workshop. </a></h5>
+									<h5><a href="https://arxiv.org/abs/2107.10609">Aziz, A., <b>Kosasih, E.E.</b>, Griffiths, R.R. and Brintrup, A., 2021. Data considerations in graph representation learning for supply chain networks. ICML ML4Data Workshop.</a></h5>	
+									<h5><a href="https://arxiv.org/abs/2111.09314"><b>Kosasih, E.E.</b>, Joshi, R.B. and Channegowda, J., 2021. GAETS: A Graph Autoencoder Time Series Approach Towards Battery Parameter Estimation. International Conference on Learning Representations: CoSubmitting Summer Workshop.</a></h5>									
+								</header>
+
+
+								<header class="minor">
+									<h2>Others</h2>
+									<h5><a href="https://arxiv.org/abs/2106.15529"><b>Kosasih, E.E.</b>, Cabezas, J., Sumba, X., Bielak, P., Tagowski, K., Idanwekhai, K., Tjandra, B.A. and Jamasb, A.R., 2021. On graph neural network ensembles for large-scale molecular property prediction. OGB-LSC at KDD Cup. </a></h5>
+									<h5><a href="https://www.sciencedirect.com/science/article/pii/B9780323916141000228">Brintrup, A., <b>Kosasih, E.E.</b>, MacCarthy, B.L. and Demirel, G., 2022. Digital supply chain surveillance: concepts, challenges, and frameworks. In The Digital Supply Chain (pp. 379-396) Chapter 22. Elsevier.</a></h5>									
+								</header>
+
+							</section>
+
+
+
+
+
+
+
+
+							<section id="education" class="main special">
+								<header class="major">
+									<h2>Education</h2>
+									<h4>Thesis supervision, pro bono mentoring, courses taught, public talks, blog and podcast. </h4>
+								</header>
+							
+								<header class="minor">
+									<h2>Thesis Supervision</h2>
+									<h5><a href="https://www.linkedin.com/in/jonathanjianxiongchen"><b>Jonathan Chen</b></a>. 2023 Visiting MPhil at Cambridge University from ETH Zurich. Uncertainty modelling in supply chain knowledge graph extraction. PI: <a href="https://dblp.org/pid/85/1303.html">Prof. Alexandra Brintrup (Cambridge)</a> and <a href="https://scholar.google.com/citations?user=IeX3p4wAAAAJ&hl=en">Prof. Torbjørn Netland (ETH Zurich)</a>  </h5>
+									<h5><a href="https://www.linkedin.com/in/philippschaffer1/"><b>Philipp Schaffer</b></a>. 2023 Visiting MPhil at Cambridge University from RWTH Aachen. Natural Language Processing for supply chain knowledge graph extraction. PI: <a href="https://dblp.org/pid/85/1303.html">Prof. Alexandra Brintrup</a> and <a href="https://scholar.google.co.uk/citations?user=-oylTkMAAAAJ&hl=en">Prof. Torsten-Oliver Salge (RWTH Aachen)</a> </h5>
+									<h5><a href="https://scholar.google.com/citations?user=Sz7hDkIAAAAJ"><b>Nils Brockmann</b></a>. 2022 ISMM MPhil at Cambridge University. Supply chain link prediction on an uncertain knowledge graph. Led to <a href="https://sites.google.com/view/ai4manufacturing/home">ACM SIGKDD Explorations publication.</a> PI: <a href="https://dblp.org/pid/85/1303.html">Prof. Alexandra Brintrup</a> </h5>
+									<h5><a href="https://scholar.google.com/citations?user=pSrG8AoAAAAJ"><b>Ajmal Aziz</b></a>. 2021 ISMM MPhil at Cambridge University. Data considerations in graph representation learning for supply chain networks. Led to <a href="https://sites.google.com/view/ml4data/accepted-papers">ICML workshop publication.</a> PI: <a href="https://dblp.org/pid/85/1303.html">Prof. Alexandra Brintrup</a>  </h5>
+									<h5><a href="https://uk.linkedin.com/in/owen-underwood-6894a8193"><b>Owen Underwood</b></a>. 2020 Manufacturing Engineering Tripos IIB at Cambridge University. Supply chain disruption prediction. PI: <a href="https://dblp.org/pid/85/1303.html">Prof. Alexandra Brintrup (Cambridge)</a> and <a href="https://scholar.google.co.uk/citations?user=aCljaCYAAAAJ&hl=en">Prof. Anisoara Calinescu (Oxford)</a> </h5>
+								</header>
+
+								<header class="minor">
+									<h2>Pro bono Mentoring</h2>
+									<h5><a href="https://blog.iclr.cc/2022/05/12/reflection-on-the-dei-initiative-at-iclr-2022/">ICLR 2022 Diversity, Equity and Inclusion Program</a>. Led to <a href="https://arxiv.org/abs/2111.09314">publication</a>. Watch my talk <a href="https://iclr.cc/virtual/2022/workshop/9069">here</a></h5>
+									<h5><a href="https://newsletter.ruder.io/issues/icml-round-up-open-collaboration-clip-art-internet-augmentation-new-glue-style-benchmarks-692828">ML Collective for KDD Cup 2021 OGB-LSC </a>. Rank 21/49. Led to <a href="https://arxiv.org/abs/2106.15529">publication</a>. </h5>
+									<h5>Speerheaded <a href="files/ece_issue12.pdf#page=19">peer tutoring programme</a> at the National University of Singapore, Department of Electrical Engineering. <a href="files/ColorAwards2016.pdf">Received Colours Awards 2016. </a></h5>
+								</header>
+
+							
+								<header class="minor">
+									<h2>Courses Taught</h2>
+									<h5><a href="https://www.ifm.eng.cam.ac.uk/education/ismm/taught-modules/">M3 Data and Modeling</a>: Cambridge University Institute for Manufacturing MPhil Program.</h5>
+									<h5><a href="https://www.c2d3.cam.ac.uk/events/applied-process-mining-management">Applied Process Mining for Management</a>: Cambridge University Continuing Education Programme </h5>									
+								</header>
+
+								<header class="minor">
+									<h2>Public Talks</h2>
+									<ul class="features">
+										<li>
+											<iframe width="100%" height="210" src="https://www.youtube.com/embed/oAjVhHiIZdo?start=285" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+										</li>
+										<li>
+											<iframe width="100%" height="210" src="https://www.youtube.com/embed/9a4Txf9fP5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+										</li>
+										<li>
+											<iframe width="100%" height="210" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1151874517&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+										</li>
+										<li>
+											<span class="image"><a href="https://events.hubilo.com/the-future-of-supply-chain-makers-and-movers-2021/session/106971"><img src="images/makers-movers-2021.jpg" alt="" width="100%"/></a></span>
+										</li>
+										<li>
+											<span class="image"><a href="https://www.inet.ox.ac.uk/events/supply-chain-risk-surveillance-edward-kosasih-university-of-cambridge/"><img src="images/oxford_inet_talk.png" alt="" width="100%"/></a></span>
+										</li>
+										<li>
+											<span class="image"><a href="https://sml-fin.github.io"><img src="images/oxford_smlfin_talk.png" alt="" width="100%"/></a></span>
+										</li>
+										<li>
+											<span class="image"><img src="images/edward_zhejiang.jpeg" alt="" width="100%"/></span>
+										</li>
+										
+										
+									</ul>
+									
+								</header>
+
+
+								<header class="minor">
+									<h2>Blog @ <a href="https://medium.com/@eekosasih"><b>Medium</b></a></h2>
+									
+									<ul class="features">
+										<li>
+											<span class="image"><img src="images/autoencoder-blog.png" alt="" width="200" height="120"/></a></span>
+											<h3><a href="https://medium.com/@eekosasih/one-class-learning-in-manufacturing-autoencoder-and-golden-units-baselining-4c910038a4b3">One Class Learning in Manufacturing: Autoencoder and Golden Units Baselining</a></h3>
+										</li>
+<!-- 										<li>
+											<span class="image"><img src="images/precision-blog.png" alt="" width="200" height="120"/></a></span>
+											<h3><a href="https://medium.com/@eekosasih/precision-and-recall-in-manufacturing-a-case-study-4cbb4c352bcd">Precision and Recall in Manufacturing: A Case Study</a></h3>
+										</li>
+										<li>
+											<span class="image"><img src="images/cpk-blog.png" alt="" width="200" height="120"/></a></span>
+											<h3><a href="https://medium.com/@eekosasih/looking-beyond-cpk-in-manufacturing-418856cd3821">Looking Beyond Cpk in Manufacturing</a></h3>
+										</li> -->
+										<li>
+											<span class="image"><img src="https://miro.medium.com/max/1400/1*sVpeRySq_KI0LX1XtzNa8w.png" alt="" width="200" height="120"/></a></span>
+											<h3><a href="https://medium.com/@eekosasih/overall-equipment-effectiveness-and-topic-modeling-bb467177217f">Overall Equipment Effectiveness and Topic Modeling</a></h3>
+										</li>
+										<li>
+											<span class="image"><img src="https://miro.medium.com/max/1400/0*FSmI7mMO6Eukukpn.png" alt="" width="200" height="120"/></a></span>
+											<h3><a href="https://medium.com/@eekosasih/outlier-detection-an-etl-tutorial-with-spark-f4197eb84a7b">Outlier Detection: An ETL Tutorial with Spark</a></h3>
+										</li>
+										<li>
+											<span class="image"><img src="https://miro.medium.com/max/1400/1*IZI1QLCWKiwQgMsUPFCZCw.png" alt="" width="200" height="120"/></a></span>
+											<h3><a href="https://medium.com/@eekosasih/servitization-and-queueing-theory-deriving-m-m-1-model-589175b23054">Servitization and Queueing Theory: Deriving M/M/1 Model</a></h3>
+										</li>
+										<li>
+											<span class="image"><img src="https://miro.medium.com/max/828/1*LTGLrdnRVeIkgTCwWZLgbQ.png" alt="" width="200" height="120"/></a></span>
+											<h3><a href="https://eekosasih.medium.com/link-prediction-in-bipartite-graph-ad766e47d75c">Link  Prediction in Bipartite Graph</a></h3>
+										</li>
+										<li>
+											<span class="image"><img src="https://miro.medium.com/max/828/0*y9RYtjjtWNxKOhsH" alt="" width="200" height="120"/></a></span>
+											<h3><a href="https://eekosasih.medium.com/time-series-analysis-template-297a965b42ab">Univariate Time Series Analysis</a></h3>
+										</li>
+		
+									</ul>
+									
+								</header>
+
+
+<!-- 								<header class="minor">
+									<h2>Notes</h2>
+									
+										<a href="https://blog.eekosasih.com/notes/geometric-deep-learning">Geometric Deep Learning: A Quick Tour</a>
+										|
+										<a href="https://blog.eekosasih.com/notes/statistical-mechanics">Statistical Mechanics: A Quick Tour</a>
+										|
+										<a href="https://blog.eekosasih.com/notes/differential-privacy">Differential Privacy: A Quick Tour</a>
+										|
+										<a href="https://blog.eekosasih.com/notes/link-prediction-mutual-information">Link Prediction with Mutual Information: A Tutorial</a>
+										|
+										<a href="https://blog.eekosasih.com/slides_pytutorial_iss">Python Tutorial for Beginners</a>
+									
+								</header> -->
+
+								<header class="minor">
+									<h2>Podcast</h2>
+									
+									<ul class="features">
+										<li>
+											<iframe src="https://open.spotify.com/embed-podcast/episode/6G8ALVzfJGIb9p1SrvT12H" width="100%" height="152" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+										</li>
+										<li>
+											<iframe width="100%" height="152" src="https://www.youtube-nocookie.com/embed/qVYdZ7_vXDc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+										</li>
+										<li>
+											<iframe width="100%" height="152" src="https://www.youtube-nocookie.com/embed/bLraVWZSFb8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+										</li>
+										<li>
+											<iframe width="100%" height="152" src="https://www.youtube-nocookie.com/embed/Z67RIyz2JfA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+										</li>
+										<li>
+											<iframe width="100%" height="152" src="https://www.youtube-nocookie.com/embed/8Sb1WvWQY7w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+										</li>
+										<li>
+											<iframe width="100%" height="152" src="https://www.youtube-nocookie.com/embed/Aq3gvMVJf44" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+										</li>
+										<li>
+											<iframe width="100%" height="152" src="https://www.youtube-nocookie.com/embed/ax58FShVw_A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+										</li>
+<!-- 										<li>
+											<iframe src="https://open.spotify.com/embed-podcast/episode/2Fe6Lc5nccXNIxCymE7sEk" width="100%" height="152" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+										</li>
+										<li>
+											<iframe src="https://open.spotify.com/embed-podcast/episode/2KnhE8uks3dI0n0Cv1FQPn" width="100%" height="152" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+										</li>
+										<li>
+											<iframe src="https://open.spotify.com/embed-podcast/episode/6vYAbK5mUtyzCxALC2rP5Z" width="100%" height="152" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+										</li>
+ 										<li>
+											<iframe src="https://open.spotify.com/embed-podcast/episode/7CPlQZB5iDnftieyaujrMu" width="100%" height="152" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+										</li>
+										<li>
+											<iframe src="https://open.spotify.com/embed-podcast/episode/3qXUEZjJ1V7TyQVarpE4yd" width="100%" height="152" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+										</li> -->
+
+										
+									</ul>
+									
+								</header>
+
+							</section>
+
+
+
+
+
+
+							<section id="finance" class="main special">
+								<header class="major">
+									<h2>Finance</h2>
+								</header>
+
+								<header class="minor">
+									<h2>Hedge Funds</h2>
+									<p>I am a Fellow and former Intern Quantitative Researcher (2022) at <a href="https://www.squarepoint-capital.com/">Squarepoint Capital</a> </p>
+
+								</header>
+
+
+								<header class="minor">
+									<h2>Venture Capital</h2>
+									<p>I am a Limited Partner and former Student Investment Partner (2020-2023), equivalent to Venture Partner, at <a href="https://thecreatorfund.com/">Creator Fund</a>, a £20m student-run pre-seed Deep Tech fund in the UK. Here are my personal portfolio companies: </p>
+
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Investment Year</th>
+													<th>Investing Arm</th>
+													<th>Co-Investors</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td><a href="https://beyondmath.com/">Beyond Math</a></td>
+													<td>AI for engineering design</td>
+													<td>2023</td>
+													<td>Creator Fund</td>
+													<td><a href="https://www.einnews.com/pr_news/640787350/up-partners-recognized-as-best-esg-fund-energy-transition-clean-energy">UP Partners</a></td>
+												</tr>
+												<tr>
+													<td><a href="https://www.planetaryprocessing.io/">Planetary Processing</a></td>
+													<td>Massively multiplayer online game at scale</td>
+													<td>2023</td>
+													<td>Creator Fund</td>
+													<td><a href="https://www.enterprise.cam.ac.uk/portfolio-companies/planetary-processing/">Cambridge Enterprise, Blue Wire Capital</a></td>
+												</tr>
+												<tr>
+													<td><a href="https://www.marqo.ai/">Marqo</a></td>
+													<td>Multimodal vector search engine</td>
+													<td>2022</td>
+													<td>Creator Fund</td>
+													<td>confidential</td>
+												</tr>
+												<tr>
+													<td><a href="https://www.signaloid.ai/">Signaloid</a></td>
+													<td>Uncertainty for hardware</td>
+													<td>2022</td>
+													<td>Creator Fund</td>
+													<td><a href="https://www.uktechnews.info/2023/05/25/signaloid-secures-3-million-seed-investment-led-by-iq-capital">Cambridge Enterprise, IQ Capital</a></td>
+												</tr>
+												<tr>
+													<td><a href="https://www.fairgen.ai/">Fairgen</a></td>
+													<td>Generative AI for consumer research</td>
+													<td>2022</td>
+													<td>Creator Fund</td>
+													<td><a href="https://www.calcalistech.com/ctechnews/article/byvaed2kq">Tal Ventures</a></td>
+												</tr>
+												<tr>
+													<td><a href="https://www.glyphic.ai/">Glyphic</a></td>
+													<td>Large language models for B2B sales</td>
+													<td>2022</td>
+													<td>Creator Fund</td>
+													<td><a href="https://www.prnewswire.co.uk/news-releases/glyphic-ai-raises-5-5m-pre-seed-to-build-ai-copilot-reinventing-how-sales-teams-work-301850092.html">Point72 Ventures</a></td>
+												</tr>
+												<tr>
+													<td><a href="https://turing.bio/">Turing Biosystems</a></td>
+													<td>AI for drug development</td>
+													<td>2022</td>
+													<td>Creator Fund</td>
+													<td>confidential</td>
+												</tr>
+												<tr>
+													<td><a href="https://www.caeruleus.bio/">Caeruleus Genomics</a></td>
+													<td>Machine learning for gene sequencing</td>
+													<td>2022</td>
+													<td>Creator Fund</td>
+													<td><a href="https://innovation.ox.ac.uk/portfolio/companies-formed/">Oxford University</a></td>
+												</tr>
+												<tr>
+													<td><a href="https://apian.aero/">Apian</a></td>
+													<td>Healthcare logistics delivered by drone</td>
+													<td>2022</td>
+													<td>Creator Fund</td>
+													<td>confidential</td>
+												</tr>
+												<tr>
+													<td><a href="https://www.paperplane.ai/">Paperplane</a></td>
+													<td>Automating salesforce</td>
+													<td>2022</td>
+													<td>Creator Fund</td>
+													<td><a href="https://www.ycombinator.com/companies/paperplane">Y Combinator</a>, <a href="https://www.crunchbase.com/organization/paperplane-f079/company_financials">Bloomberg Beta</a></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+
+								</header>
+
+								<header class="minor">
+									<h2>Risk Insurance</h2>
+									<p>I am an affiliate doctoral researcher at <a href="https://www.aviva.co.uk/">Aviva</a> General Insurance Underwriting and Quantum Data Science team.</p>
+
+									<ul class="features">
+										<li>
+											<span class="image"><a href="files/aviva_report_2020-2021.pdf"><img src="images/aviva_2021_annualreport.PNG" alt="" width="200"/></a></span>
+										</li>
+										<li>
+											<span class="image"><a href="files/aviva_report_2021-2022.pdf"><img src="images/aviva_2122_annualreport.PNG" alt="" width="200"/></a></span>
+											
+										</li>
+									</ul>
+
+								</header>
+							
+
+							</section>
+
+
+
+
+
+
+							<section id="arts" class="main special">
+								<header class="major">
+									<h2>Arts</h2>
+								</header>
+								<header class="minor">
+									<h2><b>Curating Connections </b> exhibited at <a href="https://www.dow.cam.ac.uk/cultural-life/heong-gallery">Heong Gallery</a>, Cambridge.</h2>
+									<h3>Awarded the <a href="https://www.dow.cam.ac.uk/exhibitions/twining-egginton-prize-winners-2023">Twining Egginton Prize for Fine Art 2023</a></h3>
+
+								<ul class="features">
+									<li>
+										<span class="image"><img src="images/curating_connections.jpeg" alt="" width="300"/></a></span>
+									</li>
+									<li>
+										<span class="image"><img src="images/heong.jpeg" alt="" width="300"/></a></span>
+									</li>
+									<li>
+										<span class="image"><img src="images/edward_curating_connections.jpeg" alt="" width="300"/></a></span>
+									</li>
+
+									
+								</ul>
+								</header>
+								
+							</section>
+
+
+
+
+
+
+
+							<section id="engineering" class="main special">
+								<header class="major">
+									<h2>Engineering</h2>
+									
+								</header>
+								<ul class="features">
+									<li>
+										<span class="image"><img src="images/pathwave-analytics.png" alt="" width="200" height="120"/></a></span>
+										<h3><a href="https://www.keysight.com/en/pd-2889970-pn-PA10000A/pathwave-analytics?cc=US&lc=eng"> PathWave Analytics</a></h3>
+										<p>Data Scientist at Keysight Technologies. 2017-2019. <a href="files/keysight-ip-award.jpg">Invented and implemented 2 trade secrets on anomaly detection for time series and image data. </a></p>
+									</li>
+									<li>
+										<span class="image"><img src="images/alva-website-2.png" alt="" width="200" height="120"/></a></span>
+										<h3><a href="https://www.alvaenergi.com">Remote Monitoring</a></h3>
+										<p>Embedded Software Engineer at Alva Energi. 2016-2019. Designed remote monitoring for solar pv facility in Geranting and Sumba villages. Presented work at <a href="https://www.itu.int/net4/wsis/forum/2020/Agenda/Session/194">United Nations ITU WSIS Forum 2020.</a> </p>
+									</li>	
+									
+									<li>
+										<span class="image"><img src="images/cutec-coffee-club-network.png" alt="" width="200" height="120"/></a></span>
+										<h3><a href="https://www.cutec.io/">Coffee Club</a></h3>
+										<p>Advisor, President and CIO at CUTEC. 2019-2022. Programmed Coffee Club at scale: an automated cofounder matchmaking platform. Made over 1500 matches in Cambridge University. </p>
+									</li>	
+									
+									<li>
+										<span class="image"><img src="images/nus_nanosat.png" alt="" height="120"/></a></span>
+										<h3>CubeSat</h3>
+										<p>Member of the NUS nanosatellite lab. 2014-2016. Investigated low-cost Command an Data Handling (C&DH) subsystem. Inducted into <a href="files/GCSP_2017">NAE Grand Challenge Scholars Programme</a> </p>
+									</li>	
+									
+								</ul>
+								
+							</section>
+
+
+
+
+
+
+					</div>
+				<!-- Footer -->
+					<footer id="footer">
+<!-- 						<section>
+							<h2>On the News</h2>
+							<h5><a href="https://www.c2d3.cam.ac.uk/news/aviva-cambridge-partnership-new-phd-students-202021-academic-year">Cambridge-Aviva PhD Studentship</a></h5>
+							<h5><a href="files/keysight-ip-award.jpg">Keysight Intellectual Property Awards</a></h5>
+							<h5><a href="files/ColorAwards2016.pdf">NUS Engineering Colours Award 2016</a></h5>
+							<h5>NAE Grand Challenge Scholars Programme 2017 (<a href="files/GCSP_2017.pdf">NUS</a> | <a href="http://www.engineeringchallenges.org/GrandChallengeScholarsProgram/14411.aspx">NAE</a>) </h5>
+							<h5><a href="files/ece_issue12.pdf">NUS ECE Peer Tutoring Programme</a></h5>	
+						</section> -->
+						<section>
+							<h2>Contact</h2>
+							<dl class="alt">
+								<dt>Address</dt>
+								<dd>Downing College, University of Cambridge</dd>
+								<dt>Email</dt>
+								<dd>info [at] eekosasih [dot] com</dd>
+							</dl>
+							<ul class="icons">
+								<li><a href="https://scholar.google.com/citations?user=MJQy1CkAAAAJ" class="icon fa-graduation-cap alt"><span class="label">Google Scholar</span></a></li>
+								<li><a href="https://keybase.io/eekosasih" class="icon fa-key alt"><span class="label">Keybase</span></a></li>
+								<li><a href="https://medium.com/@eekosasih" class="icon fa-medium alt"><span class="label">Medium</span></a></li>
+								<li><a href="https://twitter.com/ee_kosasih" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
+								<!-- <li><a href="http://www.facebook.com/edwardelson" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li> -->
+								<li><a href="https://github.com/edwardelson" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
+								<li><a href="https://www.linkedin.com/in/edwardelson" class="icon fa-linkedin alt"><span class="label">LinkedIn</span></a></li>
+								<!-- <li><a href="https://www.kaggle.com/edwardelson" class="icon fa-database alt"><span class="label">Kaggle</span></a></li> -->
+								<!-- <li><a href="https://www.flickr.com/photos/130479625@N08/" class="icon fa-flickr alt"><span class="label">Flickr</span></a></li> -->
+<!-- 								<li><a href="https://www.goodreads.com/user/show/69074534-edward-elson" class="icon fa-book alt"><span class="label">Goodreads</span></a></li> -->
+							</ul>
+						</section>
+						<p class="copyright">&copy; Edward Elson Kosasih. 2023. Design based on <a target='_blank' href="http://html5up.net/">HTML5 UP </a> and <a href="https://github.com/vasturiano/3d-force-graph">ForceGraph3D</a> </p>
+					</footer>
+
+			</div>
+
+	</body>
+</html>
